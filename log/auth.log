@@ -49,3 +49,4 @@
 2026-09-15T04:30:06.771200+00:00 ip-172-31-12-224 systemd-logind[670]: New session '4' of user 'ubuntu' with class 'user' and type 'tty'.
 2026-09-15T04:31:45.333556+00:00 ip-172-31-12-224 sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by ubuntu(uid=1000)
 2026-09-15T04:31:45.334307+00:00 ip-172-31-12-224 sudo: ubuntu : TTY=/dev/pts/0 ; PWD=/var ; USER=root ; COMMAND=/usr/bin/bash 
+2026-09-15T04:38:53.362578+00:00 ip-172-31-12-224 sshd-session[2920]: Connection closed by 213.230.78.45 port 21435
