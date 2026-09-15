@@ -1,0 +1,11 @@
+f2285e36c86f32cd31a427b5007beca2  usr/lib/python3/dist-packages/CommandNotFound/CommandNotFound.py
+343f2b01b7218c980b4bc1fc231dfa32  usr/lib/python3/dist-packages/CommandNotFound/__init__.py
+30778342c13ac4782dcafb99acc1edf2  usr/lib/python3/dist-packages/CommandNotFound/db/__init__.py
+baf34b36ffc09145a6d9bb848454ee9c  usr/lib/python3/dist-packages/CommandNotFound/db/creator.py
+d74cb66b85564527548599d6b2432848  usr/lib/python3/dist-packages/CommandNotFound/db/db.py
+39f22716ef3d49dff2a7d37f1e7d7c5a  usr/lib/python3/dist-packages/CommandNotFound/util.py
+d9335dd2432d50f4c39b5c06fc51b894  usr/lib/python3/dist-packages/command_not_found-0.3.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/command_not_found-0.3.egg-info/dependency_links.txt
+4f40ecd25c3c1410f93380e18b3f5a38  usr/lib/python3/dist-packages/command_not_found-0.3.egg-info/top_level.txt
+22e0e4f5e83bdcede5a544a4b6f633bd  usr/share/doc/python3-commandnotfound/changelog.gz
+e7f9548d05b5cae719f3e1f096818960  usr/share/doc/python3-commandnotfound/copyright

@@ -1,0 +1,12 @@
+9949bbe499d3cde16eb91d9ea81b9cf8  usr/lib/systemd/system/pam_namespace.service
+7c2eba7c42be26118ca7d91653797cf1  usr/sbin/faillock
+621c98df5a9ec9c241158c5c2697a695  usr/sbin/mkhomedir_helper
+ca7a0368913a2c48456dc4e4e3968f23  usr/sbin/pam_extrausers_chkpwd
+391bebd04d08197a14d4a50d0f90a32b  usr/sbin/pam_extrausers_update
+71e2f8a1d4106b730062a656f38fe832  usr/sbin/pam_namespace_helper
+ca6a8875e4ac143893da96f26b84448c  usr/sbin/pam_timestamp_check
+dac2cc052473a56e5e6a8046ff2ab242  usr/sbin/pwhistory_helper
+35d23227caa23746ee21789d7f3f4a5c  usr/sbin/unix_chkpwd
+71a94a0a6aa91d3020b114068d631380  usr/sbin/unix_update
+d87fc780d44c6d0f836bac2a852fcc9a  usr/share/doc/libpam-modules-bin/copyright
+447c0d476804ef9dfb133a20d570664b  usr/share/lintian/overrides/libpam-modules-bin

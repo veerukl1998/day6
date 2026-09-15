@@ -1,0 +1,17 @@
+0d562e997b1b7d1a9271d8924ec845cb  usr/bin/acpi_listen
+5a5dcd427fea80b94afaa0f83e92d359  usr/lib/systemd/system/acpid.path
+79c2b5899a6d89383f9f05d22f6f7caf  usr/lib/systemd/system/acpid.service
+e99589a4961471fd1d57e99a7ae977a6  usr/lib/systemd/system/acpid.socket
+26a2ef1e9b9f7cbfcbd1021efce3aeca  usr/sbin/acpid
+aed63dac8abd64defdb2b5412f2d4a75  usr/share/doc/acpid/README
+af6a106a1eea511933a1106e28fe58c8  usr/share/doc/acpid/README.Debian
+786ed8e3c3b047c24cd1e13e2b34ee52  usr/share/doc/acpid/changelog.Debian.gz
+cc90f32a9d84f3cd0ac277f09194176c  usr/share/doc/acpid/copyright
+dfda6b75e2fc923a2f59a3f3ed03d04f  usr/share/doc/acpid/examples/ac
+ce12558f20d230c8ed5d1325766f5407  usr/share/doc/acpid/examples/ac.sh
+a0d3f9a8480faf602a7415d03267f49f  usr/share/doc/acpid/examples/default
+faf2a529017eaca618cacc368f9e7c27  usr/share/doc/acpid/examples/default.sh
+57f021ab2369f211018d6e7d11434314  usr/share/doc/acpid/examples/powerbtn
+c303da0b3268a45ca5f11d135bdd88fc  usr/share/doc/acpid/examples/powerbtn.sh
+4f214cbda907d6150cf4a238f4eedf53  usr/share/man/man8/acpi_listen.8.gz
+ebcedbcf32db2522ce92252925e96ec1  usr/share/man/man8/acpid.8.gz

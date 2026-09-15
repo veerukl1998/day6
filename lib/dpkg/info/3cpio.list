@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/bin
+/usr/bin/3cpio
+/usr/share
+/usr/share/doc
+/usr/share/doc/3cpio
+/usr/share/doc/3cpio/Cargo.lock
+/usr/share/doc/3cpio/changelog.Debian.gz
+/usr/share/doc/3cpio/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/3cpio.1.gz

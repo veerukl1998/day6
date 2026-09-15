@@ -1,0 +1,2 @@
+libXdmcp 6 libxdmcp6 (>= 1:1.1.5)
+udeb: libXdmcp 6 libxdmcp6-udeb (>= 1:1.1.5)

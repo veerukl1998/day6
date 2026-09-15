@@ -1,0 +1,14 @@
+b3d4290e199f96039241b064c739b4c5  usr/sbin/dump.exfat
+159c1d70d512ce5be22df4a13554c10f  usr/sbin/exfat2img
+80ae5f6c6a3e5ccb3105b4fb449a5f1b  usr/sbin/exfatlabel
+6c188fe344a1f8074acb895d39f21e9c  usr/sbin/fsck.exfat
+a31bff843734c65c6a66b580ab881936  usr/sbin/mkfs.exfat
+734fb3dc0e39b3ddd1318097b10327f5  usr/sbin/tune.exfat
+e068677cc63d5cf0319e05a1a268e1a5  usr/share/doc/exfatprogs/changelog.Debian.gz
+63f8a02ba4859c6387ed2b9b49846bf8  usr/share/doc/exfatprogs/copyright
+e987f1ef34ca459d77cce22c8430561d  usr/share/man/man8/dump.exfat.8.gz
+3a9a133d5f95a07b76d48e9da002bc23  usr/share/man/man8/exfat2img.8.gz
+c70997e92606a1fc3d1ca172b0d16550  usr/share/man/man8/exfatlabel.8.gz
+2f09053969b922ab78869469f074a715  usr/share/man/man8/fsck.exfat.8.gz
+de4afaea382a0428c152dd71f870fa87  usr/share/man/man8/mkfs.exfat.8.gz
+90932bdf02aef45e1a89b5d751c1ec7c  usr/share/man/man8/tune.exfat.8.gz

@@ -1,0 +1,1273 @@
+suite: resolute
+component: multiverse
+arch: amd64
+
+
+name: 1oom
+version: 1.11.7-1
+commands: 1oom_classic_sdl2,1oom_cmdline,1oom_gfxconv,1oom_lbxedit,1oom_lbxview_sdl2,1oom_pbxdump,1oom_pbxmake,1oom_saveconv
+
+name: afio
+version: 2.5.2-3build1
+commands: afio
+
+name: album
+version: 4.18-1
+commands: album
+
+name: alex4
+version: 1.1-10ubuntu5
+commands: alex4
+
+name: alicevision
+version: 3.3.1+repack-3
+commands: aliceVision_LdrToHdrCalibration,aliceVision_LdrToHdrCalibration-0.1,aliceVision_LdrToHdrMerge,aliceVision_LdrToHdrMerge-0.1,aliceVision_LdrToHdrSampling,aliceVision_LdrToHdrSampling-0.1,aliceVision_addPoseNoise,aliceVision_addPoseNoise-1.0,aliceVision_applyCalibration,aliceVision_applyCalibration-2.0,aliceVision_cameraInit,aliceVision_cameraInit-2.1,aliceVision_checkerboardCalibration,aliceVision_checkerboardCalibration-1.0,aliceVision_checkerboardDetection,aliceVision_checkerboardDetection-1.0,aliceVision_colorCheckerCorrection,aliceVision_colorCheckerCorrection-2.0,aliceVision_colorCheckerDetection,aliceVision_colorCheckerDetection-2.0,aliceVision_computeStructureFromKnownPoses,aliceVision_computeStructureFromKnownPoses-1.0,aliceVision_convertDistortion,aliceVision_convertDistortion-1.0,aliceVision_convertMesh,aliceVision_convertMesh-2.0,aliceVision_convertSfMFormat,aliceVision_convertSfMFormat-2.0,aliceVision_depthMapEstimation,aliceVision_depthMapEstimation-4.0,aliceVision_depthMapFiltering,aliceVision_depthMapFiltering-2.0,aliceVision_depthMapRendering,aliceVision_depthMapRendering-1.0,aliceVision_depthmapTracksInjecting,aliceVision_depthmapTracksInjecting-1.0,aliceVision_distortionCalibration,aliceVision_distortionCalibration-6.0,aliceVision_exportAlembic,aliceVision_exportAlembic-1.0,aliceVision_exportAnimatedCamera,aliceVision_exportAnimatedCamera-2.0,aliceVision_exportColmap,aliceVision_exportColmap-1.0,aliceVision_exportColoredPointCloud,aliceVision_exportColoredPointCloud-1.0,aliceVision_exportDistortion,aliceVision_exportDistortion-1.0,aliceVision_exportImages,aliceVision_exportImages-1.1,aliceVision_exportKeypoints,aliceVision_exportKeypoints-1.0,aliceVision_exportMVE2,aliceVision_exportMVE2-1.0,aliceVision_exportMVSTexturing,aliceVision_exportMVSTexturing-1.0,aliceVision_exportMatches,aliceVision_exportMatches-2.0,aliceVision_exportMatlab,aliceVision_exportMatlab-1.0,aliceVision_exportMeshlab,aliceVision_exportMeshlab-1.0,aliceVision_exportMeshroomMaya,aliceVision_exportMeshroomMaya-1.0,aliceVision_exportPMVS,aliceVision_exportPMVS-1.0,aliceVision_exportTracks,aliceVision_exportTracks-1.0,aliceVision_featureExtraction,aliceVision_featureExtraction-1.2,aliceVision_featureMatching,aliceVision_featureMatching-2.0,aliceVision_frustumFiltering,aliceVision_frustumFiltering-1.0,aliceVision_generateSampleScene,aliceVision_generateSampleScene-1.0,aliceVision_geometricFilterApplying,aliceVision_geometricFilterApplying-1.0,aliceVision_geometricFilterEstimating,aliceVision_geometricFilterEstimating-1.0,aliceVision_globalPositionEstimating,aliceVision_globalPositionEstimating-1.0,aliceVision_globalRotationEstimating,aliceVision_globalRotationEstimating-1.0,aliceVision_globalSfM,aliceVision_globalSfM-1.0,aliceVision_hardwareResources,aliceVision_hardwareResources-1.0,aliceVision_imageMasking,aliceVision_imageMasking-1.0,aliceVision_imageMatching,aliceVision_imageMatching-1.0,aliceVision_imageProcessing,aliceVision_imageProcessing-3.4,aliceVision_importAlembic,aliceVision_importAlembic-1.0,aliceVision_importMiddlebury,aliceVision_importMiddlebury-1.0,aliceVision_incrementalSfM,aliceVision_incrementalSfM-2.4,aliceVision_intrinsicsTransforming,aliceVision_intrinsicsTransforming-1.1,aliceVision_keyframeSelection,aliceVision_keyframeSelection-5.0,aliceVision_lidarDecimating,aliceVision_lidarDecimating-1.0,aliceVision_lidarMerging,aliceVision_lidarMerging-1.0,aliceVision_lidarMeshing,aliceVision_lidarMeshing-1.0,aliceVision_lightingCalibration,aliceVision_lightingCalibration-1.0,aliceVision_lightingEstimation,aliceVision_lightingEstimation-1.0,aliceVision_maskEroding,aliceVision_maskEroding-1.0,aliceVision_maskProcessing,aliceVision_maskProcessing-1.0,aliceVision_maskRandomApplying,aliceVision_maskRandomApplying-1.0,aliceVision_mergeMeshes,aliceVision_mergeMeshes-1.0,aliceVision_meshDecimate,aliceVision_meshDecimate-1.0,aliceVision_meshDenoising,aliceVision_meshDenoising-1.0,aliceVision_meshFiltering,aliceVision_meshFiltering-4.0,aliceVision_meshMasking,aliceVision_meshMasking-1.1,aliceVision_meshRemoveUnseenFaces,aliceVision_meshRemoveUnseenFaces-3.0,aliceVision_meshResampling,aliceVision_meshResampling-1.0,aliceVision_meshing,aliceVision_meshing-4.0,aliceVision_nodalSfM,aliceVision_nodalSfM-2.0,aliceVision_normalIntegration,aliceVision_normalIntegration-1.0,aliceVision_normalMapRendering,aliceVision_normalMapRendering-1.0,aliceVision_panoramaCompositing,aliceVision_panoramaCompositing-1.0,aliceVision_panoramaEstimation,aliceVision_panoramaEstimation-1.0,aliceVision_panoramaInit,aliceVision_panoramaInit-2.0,aliceVision_panoramaMerging,aliceVision_panoramaMerging-1.0,aliceVision_panoramaPostProcessing,aliceVision_panoramaPostProcessing-2.0,aliceVision_panoramaPrepareImages,aliceVision_panoramaPrepareImages-0.1,aliceVision_panoramaSeams,aliceVision_panoramaSeams-1.0,aliceVision_panoramaWarping,aliceVision_panoramaWarping-1.1,aliceVision_photometricStereo,aliceVision_photometricStereo-1.0,aliceVision_prepareDenseScene,aliceVision_prepareDenseScene-2.1,aliceVision_qualityEvaluation,aliceVision_qualityEvaluation-1.0,aliceVision_relativePoseEstimating,aliceVision_relativePoseEstimating-3.1,aliceVision_selectConnectedViews,aliceVision_selectConnectedViews-1.0,aliceVision_sfmAlignment,aliceVision_sfmAlignment-1.0,aliceVision_sfmBootstrapping,aliceVision_sfmBootstrapping-4.1,aliceVision_sfmColorHarmonize,aliceVision_sfmColorHarmonize-1.0,aliceVision_sfmColorizing,aliceVision_sfmColorizing-1.0,aliceVision_sfmDistances,aliceVision_sfmDistances-1.0,aliceVision_sfmExpanding,aliceVision_sfmExpanding-2.2,aliceVision_sfmFilter,aliceVision_sfmFilter-1.0,aliceVision_sfmLandmarksRemapping,aliceVision_sfmLandmarksRemapping-1.0,aliceVision_sfmMerge,aliceVision_sfmMerge-3.0,aliceVision_sfmPoseInjecting,aliceVision_sfmPoseInjecting-1.0,aliceVision_sfmSplitReconstructed,aliceVision_sfmSplitReconstructed-1.0,aliceVision_sfmSurveyInjecting,aliceVision_sfmSurveyInjecting-1.0,aliceVision_sfmTempFiltering,aliceVision_sfmTempFiltering-1.0,aliceVision_sfmToRig,aliceVision_sfmToRig-1.0,aliceVision_sfmTransfer,aliceVision_sfmTransfer-1.0,aliceVision_sfmTransform,aliceVision_sfmTransform-3.2,aliceVision_sfmTriangulation,aliceVision_sfmTriangulation-1.0,aliceVision_split360Images,aliceVision_split360Images-3.0,aliceVision_texturing,aliceVision_texturing-3.0,aliceVision_tracksBuilding,aliceVision_tracksBuilding-1.0,aliceVision_tracksMerging,aliceVision_tracksMerging-1.0,aliceVision_tracksSimulating,aliceVision_tracksSimulating-1.0,aliceVision_voctreeCreation,aliceVision_voctreeCreation-1.0,aliceVision_voctreeQueryUtility,aliceVision_voctreeQueryUtility-1.0,aliceVision_voctreeStatistics,aliceVision_voctreeStatistics-1.0
+
+name: alien-arena
+version: 7.71.7+dfsg-1build1
+commands: alien-arena
+
+name: alien-arena-server
+version: 7.71.7+dfsg-1build1
+commands: alien-arena-server
+
+name: alsa-firmware-loaders
+version: 1.2.15-1
+commands: cspctl,hdsploader,mixartloader,pcxhrloader,sscape_ctl,usx2yloader,vxloader
+
+name: amiwm
+version: 0.22pl2-5
+commands: amiwm,ppmtoinfo,requestchoice,x-window-manager
+
+name: amoeba
+version: 1.1-32
+commands: amoeba
+
+name: arb
+version: 6.0.6-8
+commands: arb,arb-kill
+
+name: assaultcube
+version: 1.3.0.2+dfsg-5build1
+commands: assaultcube,assaultcube-server
+
+name: astromenace
+version: 1.3.2+repack-7.1
+commands: AstroMenace
+
+name: atari800
+version: 5.2.0-2build1
+commands: atari800
+
+name: atmel-firmware
+version: 1.3-7.1build1
+commands: atmel_fwl
+
+name: augustus-game
+version: 4.0.0+dfsg-1
+commands: augustus-game
+
+name: autodir
+version: 0.99.9-18build1
+commands: autodir
+
+name: bart-cuda
+version: 0.8.00-2build3
+commands: bart
+
+name: basilisk2
+version: 0.9.20251105+dfsg-2
+commands: BasiliskII,BasiliskII-jit,BasiliskII-nojit
+
+name: bcbio
+version: 1.2.9-4
+commands: bcbio_fastq_umi_prep.py,bcbio_nextgen.py,bcbio_prepare_samples.py,bcbio_setup_genome.py,cwltool2wdl.py
+
+name: beast-mcmc
+version: 1.10.4+dfsg-8
+commands: beast-mcmc,beast-tracer,beauti,loganalyser,logcombiner,treeannotator,treestat
+
+name: bgoffice-dict-downloader
+version: 0.10+nmu1
+commands: bgoffice-dict-download,update-bgoffice-dicts
+
+name: blimps-utils
+version: 3.9+ds-2
+commands: fastaseqs
+
+name: brother-lpr-drivers-ac
+version: 1.0.3-1-0ubuntu6
+commands: brprintconf_ac,brprintconf_dcp9040cn,brprintconf_dcp9042cdn,brprintconf_dcp9045cdn,brprintconf_hl4040cdn,brprintconf_hl4040cn,brprintconf_hl4050cdn,brprintconf_hl4070cdw,brprintconf_mfc9440cn,brprintconf_mfc9450cdn,brprintconf_mfc9840cdw
+
+name: brother-lpr-drivers-bh7
+version: 1.0.1-1-0ubuntu8
+commands: brprintconf_bh7,brprintconf_dcp130c,brprintconf_dcp330c,brprintconf_dcp540cn,brprintconf_dcp750cw,brprintconf_fax1860c,brprintconf_fax1960c,brprintconf_fax2480c,brprintconf_fax2580c,brprintconf_mfc240c,brprintconf_mfc3360c,brprintconf_mfc440cn,brprintconf_mfc5460cn,brprintconf_mfc5860cn,brprintconf_mfc660cn,brprintconf_mfc665cw,brprintconf_mfc845cw
+
+name: brother-lpr-drivers-extra
+version: 1.2.0-2-0ubuntu7
+commands: brprintconf_dcp135c,brprintconf_dcp150c,brprintconf_dcp153c,brprintconf_dcp350c,brprintconf_dcp353c,brprintconf_dcp560cn,brprintconf_dcp770cw,brprintconf_extra,brprintconf_mfc230c,brprintconf_mfc235c,brprintconf_mfc260c,brprintconf_mfc465cn,brprintconf_mfc680cn,brprintconf_mfc685cw,brprintconf_mfc885cw,brprintconfij,brprintconfij2
+
+name: brother-lpr-drivers-laser
+version: 2.0.1-3-0ubuntu7
+commands: brprintconfiglpr2,brprintconflsr2
+
+name: brother-lpr-drivers-laser1
+version: 1.0.0-3-0ubuntu8
+commands: brprintconf
+
+name: brother-lpr-drivers-mfc9420cn
+version: 1.0.0-3-0ubuntu6
+commands: brprintconfcl1
+
+name: bsdgames-nonfree
+version: 2.17-10
+commands: rogue
+
+name: caja-dropbox
+version: 1.26.0-4build4
+commands: caja-dropbox
+
+name: chaplin
+version: 1.10-0.2ubuntu8
+commands: chaplin,chaplin-genmenu
+
+name: clustalx
+version: 2.1+lgpl-9build2
+commands: clustalx
+
+name: corsix-th
+version: 0.69.1-2
+commands: corsix-th
+
+name: crafty
+version: 23.4-9build1
+commands: crafty
+
+name: cufflinks
+version: 2.2.1+dfsg.1-10
+commands: compress_gtf,cuffcompare,cuffdiff,cufflinks,cuffmerge,cuffnorm,cuffquant,gtf_to_sam
+
+name: cuneiform
+version: 1.1.0+dfsg-13
+commands: cuneiform
+
+name: cytadela
+version: 1.1.0-5build1
+commands: cytadela
+
+name: d1x-rebirth
+version: 0.60~git20250524-2
+commands: d1x-rebirth
+
+name: d2x-rebirth
+version: 0.60~git20250524-2
+commands: d2x-rebirth
+
+name: darkice
+version: 1.5-3
+commands: darkice
+
+name: descent3
+version: 1.5.0+ds-2
+commands: descent3
+
+name: devede
+version: 4.17.0-2build1
+commands: devede
+
+name: dhewm3
+version: 1.5.4+dfsg-1build1
+commands: dhewm3
+
+name: distributed-net
+version: 2.9112.521+arm64-3build1
+commands: dnetc
+
+name: doris
+version: 5.0.3~beta+dfsg-19build1
+commands: doris,rundoris
+
+name: dvd-slideshow
+version: 0.8.6.1-2build1
+commands: dir2slideshow,dvd-menu,dvd-slideshow,gallery1-to-slideshow,jigl2slideshow
+
+name: dynamips
+version: 0.2.14-1build5
+commands: dynamips,nvram_export
+
+name: ec2-ami-tools
+version: 1.5.19-0ubuntu2
+commands: ec2-ami-tools-version,ec2-bundle-image,ec2-bundle-vol,ec2-delete-bundle,ec2-download-bundle,ec2-migrate-bundle,ec2-migrate-manifest,ec2-unbundle,ec2-upload-bundle
+
+name: eos-downloader
+version: 0.14.0-2
+commands: ardl,lard
+
+name: esix
+version: 1-4build1
+commands: esix
+
+name: etoys
+version: 5.0.2408-4
+commands: etoys
+
+name: exult
+version: 1.12.1-1
+commands: exult
+
+name: exult-studio
+version: 1.12.1-1
+commands: cmanip,expack,exult_shp_thumbnailer,exult_studio,ipack,mklink,rip,shp2pcx,splitshp,textpack,ucc,ucxt,wuc
+
+name: f2j
+version: 0.8.1+dfsg-6build1
+commands: f2java
+
+name: faac
+version: 1.31.1+dfsg-1build1
+commands: faac
+
+name: fasta3
+version: 36.3.8i.14-Nov-2020-4build1
+commands: fasta36,fastf36,fastm36,fasts36,fastx36,fasty36,ggsearch36,glsearch36,lalign36,map_db,ssearch36,tfastf36,tfastm36,tfasts36,tfastx36,tfasty36
+
+name: fbzx
+version: 4.8.0-3build1
+commands: fbzx
+
+name: fdkaac
+version: 1.0.0-1build1
+commands: fdkaac
+
+name: fheroes2
+version: 1.1.13+dfsg-1
+commands: fheroes2
+
+name: firebuild
+version: 0.8.6.1-1
+commands: firebuild
+
+name: freespace2-launcher-wxlauncher
+version: 0.12.0~rc3+dfsg-1.1
+commands: freespace2-launcher,wxlauncher
+
+name: frogatto
+version: 1.3.1+dfsg-7
+commands: frogatto
+
+name: game-data-packager
+version: 87
+commands: game-data-packager
+
+name: game-data-packager-runtime
+version: 87
+commands: doom2-masterlevels
+
+name: gamescope
+version: 3.16.20+ds-1
+commands: gamescope,gamescope-type,gamescopectl,gamescopereaper,gamescopestream
+
+name: gemrb
+version: 0.9.4+dfsg-1build2
+commands: gemrb
+
+name: gemrb-baldurs-gate
+version: 0.9.4+dfsg-1build2
+commands: baldurs-gate,baldurs-gate-tosc
+
+name: gemrb-baldurs-gate-2
+version: 0.9.4+dfsg-1build2
+commands: baldurs-gate-2,baldurs-gate-2-tob
+
+name: gemrb-icewind-dale
+version: 0.9.4+dfsg-1build2
+commands: icewind-dale,icewind-dale-how
+
+name: gemrb-icewind-dale-2
+version: 0.9.4+dfsg-1build2
+commands: icewind-dale-2
+
+name: gemrb-planescape-torment
+version: 0.9.4+dfsg-1build2
+commands: planescape-torment
+
+name: gentle
+version: 1.9.5~alpha2+dfsg1-3
+commands: GENtle
+
+name: geogram
+version: 1.9.6-1
+commands: geodump,vorpalite
+
+name: gfaim
+version: 0.30-0ubuntu6
+commands: gfaim
+
+name: gnuboy-sdl
+version: 1.0.3-7.2build1
+commands: sdlgnuboy
+
+name: gnuboy-x
+version: 1.0.3-7.2build1
+commands: xgnuboy
+
+name: google-android-build-tools-19.1.0-installer
+version: 19.1.0+1755725555-1
+commands: aapt,aidl,dexdump,zipalign
+
+name: google-android-build-tools-20.0.0-installer
+version: 20.0.0+1755725555-1
+commands: aapt,aidl,dexdump,zipalign
+
+name: google-android-build-tools-21.1.2-installer
+version: 21.1.2+1755725555-1
+commands: aapt,aidl,dexdump,zipalign
+
+name: google-android-build-tools-22.0.1-installer
+version: 22.0.1+1755725555-1
+commands: aapt,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-23.0.1-installer
+version: 23.0.1+1755725555-1
+commands: aapt,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-23.0.2-installer
+version: 23.0.2+1755725555-1
+commands: aapt,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-23.0.3-installer
+version: 23.0.3+1755725555-1
+commands: aapt,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-24.0.0-installer
+version: 24.0.0+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-24.0.1-installer
+version: 24.0.1+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-24.0.2-installer
+version: 24.0.2+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-24.0.3-installer
+version: 24.0.3+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-25.0.0-installer
+version: 25.0.0+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-25.0.1-installer
+version: 25.0.1+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-25.0.2-installer
+version: 25.0.2+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-25.0.3-installer
+version: 25.0.3+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-26.0.0-installer
+version: 26.0.0+1755725555-1
+commands: aapt,aapt2,aidl,dexdump,split-select,zipalign
+
+name: google-android-build-tools-26.0.1-installer
+version: 26.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-26.0.2-installer
+version: 26.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-26.0.3-installer
+version: 26.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-27.0.0-installer
+version: 27.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-27.0.1-installer
+version: 27.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-27.0.2-installer
+version: 27.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-27.0.3-installer
+version: 27.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-28.0.0-installer
+version: 28.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,dexdump,split-select,zipalign
+
+name: google-android-build-tools-28.0.1-installer
+version: 28.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-28.0.2-installer
+version: 28.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-28.0.3-installer
+version: 28.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-29.0.0-installer
+version: 29.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-29.0.1-installer
+version: 29.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-29.0.2-installer
+version: 29.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-29.0.3-installer
+version: 29.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-30.0.0-installer
+version: 30.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-30.0.1-installer
+version: 30.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-30.0.2-installer
+version: 30.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-30.0.3-installer
+version: 30.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-31.0.0-installer
+version: 31.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-32.0.0-installer
+version: 32.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-33.0.0-installer
+version: 33.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-33.0.1-installer
+version: 33.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-33.0.2-installer
+version: 33.0.2+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-33.0.3-installer
+version: 33.0.3+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-34.0.0-installer
+version: 34.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-35.0.0-installer
+version: 35.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-35.0.1-installer
+version: 35.0.1+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-build-tools-36.0.0-installer
+version: 36.0.0+1755725555-1
+commands: aapt,aapt2,aidl,apksigner,d8,dexdump,split-select,zipalign
+
+name: google-android-cmdline-tools-1.0-installer
+version: 1.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-10.0-installer
+version: 10.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-11.0-installer
+version: 11.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-12.0-installer
+version: 12.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-13.0-installer
+version: 13.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-16.0-installer
+version: 16.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-17.0-installer
+version: 17.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-19.0-installer
+version: 19.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-2.1-installer
+version: 2.1+1755725555-1
+commands: apkanalyzer,avdmanager,lint,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-3.0-installer
+version: 3.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-4.0-installer
+version: 4.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-5.0-installer
+version: 5.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-6.0-installer
+version: 6.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-7.0-installer
+version: 7.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-8.0-installer
+version: 8.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-cmdline-tools-9.0-installer
+version: 9.0+1755725555-1
+commands: apkanalyzer,avdmanager,lint,profgen,retrace,screenshot2,sdkmanager
+
+name: google-android-emulator-installer
+version: 36.1.9+1755725555-1
+commands: emulator
+
+name: google-android-platform-tools-installer
+version: 36.0.0+1755725555-1
+commands: adb,etc1tool,fastboot,hprof-conv
+
+name: gpu-burn
+version: 0+git20240115+ds-7
+commands: gpu-burn
+
+name: gpustat
+version: 1.1.1-2build1
+commands: gpustat
+
+name: groops
+version: 0+git20250907+ds-1
+commands: groops,groopsMPI
+
+name: groops-gui
+version: 0+git20250907+ds-1
+commands: groopsGui
+
+name: hannah-foo2zjs
+version: 1:6build3
+commands: hannah-foo2zjs
+
+name: hijra-applet
+version: 1.0-5
+commands: HijriApplet
+
+name: horae
+version: 071~svn537+ds1-2
+commands: artemis,athena,atoms,hephaestus,ifeffit_shell,lsprj,rdaj
+
+name: ifeffit
+version: 2:1.2.11d-15
+commands: autobk,diffkk,feff6,feffit,ifeffit
+
+name: indi-asi
+version: 2.2+20221225102500-2
+commands: asi_camera_test,indi_asi_ccd,indi_asi_focuser,indi_asi_single_ccd,indi_asi_st4,indi_asi_wheel
+
+name: indi-fishcamp
+version: 1.1-3
+commands: indi_fishcamp_ccd
+
+name: indi-inovaplx
+version: 1.4+20221221105828-3
+commands: indi_inovaplx_ccd
+
+name: indi-mi
+version: 1.8-2
+commands: indi_mi_ccd,indi_mi_ccd_eth,indi_mi_ccd_usb
+
+name: indi-pentax
+version: 1.0+20221221102411-4
+commands: indi_pentax
+
+name: indi-playerone
+version: 0.9+20230105184731-4
+commands: indi_playerone_ccd,playerone_camera_test
+
+name: indi-sbig
+version: 2.1+20221220234924-5
+commands: indi_sbig_ccd
+
+name: iozone3
+version: 508-1
+commands: fileop,iozone,pit_server
+
+name: irpas
+version: 0.10-10build1
+commands: ass,cdp,dfkaa,dhcpx,file2cable,hsrp,icmp_redirect,igrp,inetmask,irdp,irdpresponder,itrace,netenum,protos,tctrace,timestamp
+
+name: isight-firmware-tools
+version: 1.6-4.3
+commands: ift-export,ift-extract
+
+name: iso2mesh-tools
+version: 1.9.8+ds-3
+commands: cgalmesh,cgalpoly,cgalsimp2,cgalsurf,jmeshlib,meshfix,tetgen1.5
+
+name: java-package
+version: 0.64build1
+commands: make-jpkg
+
+name: jazz2-native
+version: 3.5.0-2
+commands: jazz2
+
+name: jhove
+version: 1.28.0+dfsg2-2build1
+commands: jhove,jhove-gui
+
+name: josm-installer
+version: 0.0.7+svn19430
+commands: josm,josm-installer
+
+name: julius
+version: 4.2.2-0ubuntu6
+commands: accept_check,adinrec,adintool,dfa_determinize,dfa_minimize,jclient,jcontrol,julius,julius-generate,julius-generate-ngram,mkbingram,mkbinhmm,mkbinhmmlist,mkdfa,mkfa,mkgshmm,mkss,nextword,yomi2voca
+
+name: kcemu
+version: 0.5.2+dfsg-2ubuntu1
+commands: kc2img,kc2raw,kc2tap,kc2wav,kcemu,kcemu-remote,kctape,tdtodump
+
+name: kic
+version: 2.4c-4
+commands: kic
+
+name: kinect-audio-setup
+version: 0.5-3
+commands: kinect_fetch_fw,kinect_upload_fw
+
+name: ldraw-mklist
+version: 2502+dfsg-2build1
+commands: ldraw-mklist
+
+name: lgeneral
+version: 1.4.4-4build1
+commands: lgeneral
+
+name: lgrind
+version: 3.67-9build1
+commands: lgrind
+
+name: libdemeter-perl
+version: 0.9.27+ds6-9
+commands: dartemis,dathena,datoms,denergy,denv,dfeff,dfeffit,dhephaestus,dlsprj,intrp,prj2json,rdfit,standards
+
+name: libjulius-dev
+version: 4.2.2-0ubuntu6
+commands: libjulius-config,libsent-config
+
+name: libmyth-python
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythpython,mythwikiscripts
+
+name: librem5-flash-image
+version: 0.0.5-1
+commands: librem5-devkit-flash-image,librem5-flash-image,librem5r2-flash-image,librem5r3-flash-image,librem5r4-flash-image
+
+name: libttspico-utils
+version: 1.0+git20130326-14.1build2
+commands: pico2wave
+
+name: llm
+version: 0.28-2
+commands: llm
+
+name: lmbench
+version: 3.0-a9+debian.1-10
+commands: lmbench-run
+
+name: lutris
+version: 0.5.22-1
+commands: lutris
+
+name: madfuload
+version: 1.2-5.1build1
+commands: madfuload
+
+name: matlab-support
+version: 0.4
+commands: debian-matlab-mexhelper
+
+name: mbrola
+version: 3.3+dfsg-9build1
+commands: mbrola
+
+name: meshroom
+version: 2025.1.1-1
+commands: meshroom,meshroom_batch,meshroom_compute,meshroom_newNodeType,meshroom_statistics,meshroom_status,meshroom_submit
+
+name: metis-edf
+version: 4.1-2-4build2
+commands: kmetis,onmetis,onmetis.exe,pmetis
+
+name: molotov
+version: 1.3-1build1
+commands: molotov
+
+name: mp3diags
+version: 1.5.01-2build6
+commands: mp3diags
+
+name: mpglen
+version: 0.0.2-0.1ubuntu4
+commands: mpglen
+
+name: mssstest
+version: 3.0-8
+commands: mssstest
+
+name: mumax3
+version: 3.11.1-1
+commands: mumax3,mumax3-convert,mumax3-doc,mumax3-httpfsd,mumax3-plot,mumax3-script,mumax3-server,mumax3-test
+
+name: muttdown
+version: 0.4.0-4
+commands: muttdown
+
+name: mytharchive
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mytharchivehelper
+
+name: mythtv-backend
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythbackend,mythcommflag,mythexternrecorder,mythfilerecorder,mythfilldatabase,mythjobqueue,mythpreviewgen,mythtv-setup,mythtv-setup.real
+
+name: mythtv-common
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythccextractor,mythffmpeg,mythffprobe,mythmetadatalookup,mythshutdown,mythutil
+
+name: mythtv-frontend
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythavtest,mythfrontend,mythfrontend.real,mythlcdserver,mythmediaserver,mythreplex,mythscreenwizard,mythwelcome
+
+name: mythtv-transcode-utils
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythtranscode
+
+name: mythzoneminder
+version: 2:36.0+fixes.20260401.1385cbfc60-0ubuntu1
+commands: mythzmserver
+
+name: nautilus-dropbox
+version: 2019.02.14-1.2build3
+commands: dropbox
+
+name: nikto
+version: 1:2.1.5-3.1build1
+commands: nikto
+
+name: notion
+version: 4.0.4+dfsg-1
+commands: install-notion-cfg,notion,notionflux,x-window-manager
+
+name: nsight-compute
+version: 2024.1.1.4~12.4.1-8
+commands: ncu,ncu-ui
+
+name: nsight-systems
+version: 2023.4.4.54~12.4.1-8
+commands: nsight-sys,nsys,nsys-ui
+
+name: nspark
+version: 1.7.8B2+git20210317.cb30779-2.1
+commands: nspark,nspark-sqsh
+
+name: nvidia-cg-toolkit
+version: 3.1.0013-5build2
+commands: cgc,cgfxcat,cginfo
+
+name: nvidia-cuda-gdb
+version: 12.4.127~12.4.1-8
+commands: cuda-gcore,cuda-gdb,cuda-gdbserver
+
+name: nvidia-cuda-toolkit
+version: 12.4.131~12.4.1-8
+commands: __nvcc_device_query,bin2c,compute-sanitizer,cu++filt,cudafe++,cuobjdump,fatbinary,nvcc,nvdisasm,nvlink,nvprune,ptxas
+
+name: nvidia-cuda-toolkit-gcc
+version: 12.4.1-8
+commands: cuda-g++,cuda-gcc
+
+name: nvidia-cudnn
+version: 9.0.0.312~cuda12build1
+commands: update-nvidia-cudnn
+
+name: nvidia-fabricmanager-580
+version: 580.126.20-0ubuntu3
+commands: nv-fabricmanager,nvidia-fabricmanager-start.sh,nvswitch-audit
+
+name: nvidia-fabricmanager-595
+version: 595.58.03-0ubuntu3
+commands: nv-fabricmanager,nvidia-fabricmanager-start.sh,nvswitch-audit
+
+name: nvidia-imex-580
+version: 580.126.20-0ubuntu3
+commands: nvidia-imex,nvidia-imex-ctl
+
+name: nvidia-imex-595
+version: 595.58.03-0ubuntu4
+commands: nvidia-imex,nvidia-imex-ctl
+
+name: nvidia-modprobe
+version: 570.133.07-1
+commands: nvidia-modprobe
+
+name: nvidia-profiler
+version: 12.4.127~12.4.1-8
+commands: nvprof
+
+name: nvitop
+version: 1.5.2-1
+commands: nvisel,nvitop
+
+name: nvpy
+version: 2.3.1-1
+commands: nvpy
+
+name: nvtop
+version: 3.2.0-2
+commands: nvtop
+
+name: odr-audioenc
+version: 3.6.0-2build1
+commands: odr-audioenc
+
+name: openjazz
+version: 20240919-1build1
+commands: OpenJazz
+
+name: openmohaa
+version: 0.82.1+dfsg-2
+commands: mohaa
+
+name: openmohaa-server
+version: 0.82.1+dfsg-2
+commands: mohaa-server
+
+name: openrct2
+version: 0.4.31+ds-1ubuntu1
+commands: openrct2,openrct2-cli
+
+name: opentyrian
+version: 2.1.20221123-2build1
+commands: opentyrian
+
+name: openzwave
+version: 1.6.1914+ds2-4build1
+commands: MinOZW
+
+name: openzwave-controlpanel
+version: 1.6~git20200306.4b8a39d-2
+commands: ozwcp
+
+name: os8
+version: 2.1-7
+commands: os8
+
+name: othman
+version: 1.0.0-3
+commands: othman-browser
+
+name: out-of-order
+version: 1.0-3build1
+commands: out-of-order
+
+name: pgmfindclip
+version: 1.13-0.1ubuntu3
+commands: pgmfindclip
+
+name: pgplot5
+version: 5.2.2-19.8
+commands: pgxwin_server
+
+name: phosh-osk-data-packager
+version: 0.53.0-1
+commands: phosh-osk-data-packager
+
+name: play.it
+version: 2.34.2-2
+commands: play.it
+
+name: pokemmo-installer
+version: 1.4.8-1build1
+commands: pokemmo-installer
+
+name: postal1
+version: 2015.git20250526+ds-2
+commands: postal1
+
+name: powder
+version: 118+dfsg1-5
+commands: powder
+
+name: pq
+version: 6.2-0ubuntu5
+commands: pq
+
+name: primus-vk
+version: 1.6.4-4build1
+commands: pvkrun
+
+name: prismlauncher
+version: 10.0.5-2
+commands: prismlauncher
+
+name: protontricks
+version: 1.13.1+ds-1
+commands: protontricks,protontricks-desktop-install,protontricks-launch
+
+name: pycsw
+version: 2.6.2+dfsg-3
+commands: pycsw-admin
+
+name: qcomicbook
+version: 0.9.1-4
+commands: qcomicbook
+
+name: quake
+version: 87
+commands: quake
+
+name: quake-server
+version: 87
+commands: quake-server
+
+name: quake2
+version: 87
+commands: quake2
+
+name: quake2-server
+version: 87
+commands: quake2-server
+
+name: quake3
+version: 87
+commands: quake3
+
+name: quake3-server
+version: 87
+commands: quake3-server
+
+name: rar
+version: 2:7.20-1
+commands: rar
+
+name: raster3d
+version: 3.0-8-3
+commands: avs2ps,balls,label3d,normal3d,rastep,render,ribbon,rings3d,rods,stereo3d,worms
+
+name: reminiscence
+version: 0.2.1-3build1
+commands: reminiscence,rs
+
+name: repo
+version: 2.58-4
+commands: repo
+
+name: rhvoice
+version: 1.14.0-3
+commands: RHVoice-client,RHVoice-service,RHVoice-test
+
+name: rocksndiamonds
+version: 4.4.1.3+dfsg-1
+commands: rocksndiamonds,rocksndiamonds-bin
+
+name: rpiboot
+version: 0~20240926~102326+git82d8755+nowin-0ubuntu1
+commands: rpiboot
+
+name: rtcw
+version: 1.51.c+dfsg1-8
+commands: wolfmp,wolfsp
+
+name: rtcw-server
+version: 1.51.c+dfsg1-8
+commands: wolfded
+
+name: sabnzbdplus
+version: 4.5.4+dfsg-4
+commands: sabnzbdplus
+
+name: sauerbraten
+version: 0.0.20201227-1build1
+commands: sauerbraten
+
+name: sauerbraten-server
+version: 0.0.20201227-1build1
+commands: sauerbraten-server
+
+name: seaview
+version: 1:5.1+20251106-1
+commands: seaview
+
+name: seqcluster
+version: 1.2.9+ds-7
+commands: seqcluster,seqcluster_install
+
+name: serious-sam-tfe
+version: 0~git20250928+dfsg-1
+commands: serious-sam-tfe
+
+name: serious-sam-tse
+version: 0~git20250928+dfsg-1
+commands: serious-sam-tse
+
+name: sfcb
+version: 1.4.9-0ubuntu10
+commands: sfcbd,sfcbdump,sfcbinst2mof,sfcbmof,sfcbmofpp,sfcbrepos,sfcbstage,sfcbunstage,sfcbuuid
+
+name: sfcb-test
+version: 1.4.9-0ubuntu10
+commands: wbemcat,xmltest
+
+name: sgb
+version: 1:20210202-2build1
+commands: assign_lisa,book_components,econ_order,football,girth,ladders,miles_span,multiply,queen,roget_components,take_risc,word_components
+
+name: sift
+version: 4.0.3b-6
+commands: SIFT_exome_nssnvs.pl,SIFT_for_submitting_fasta_seq.csh,info_on_seqs,map_coords_to_bin.pl,sift_feed_to_chr_coords_batch.pl,sift_for_submitting_fasta_seq.csh,snv_db_engine.pl
+
+name: snaphu
+version: 2.0.7-2
+commands: snaphu
+
+name: snmp-mibs-downloader
+version: 1.8
+commands: download-mibs
+
+name: solvate
+version: 1.0-3build1
+commands: solvate
+
+name: spectemu-common
+version: 0.94a-23
+commands: tapeout
+
+name: spectemu-x11
+version: 0.94a-23
+commands: xspect
+
+name: spellcast
+version: 1.0-22build1
+commands: spellcast
+
+name: spread-phy
+version: 1.0.7+dfsg-5build1
+commands: spread-phy
+
+name: sqlcl-package
+version: 0.1.1build1
+commands: make-sqlcl-package
+
+name: sqldeveloper-package
+version: 0.5.4build1
+commands: make-sqldeveloper-package
+
+name: starpu-contrib-tools
+version: 1.4.10+dfsg-2
+commands: starpu_calibrate_bus,starpu_codelet_histo_profile,starpu_codelet_profile,starpu_config,starpu_env,starpu_fxt_data_trace,starpu_fxt_number_events_to_names.py,starpu_fxt_stats,starpu_fxt_tool,starpu_lp2paje,starpu_machine_display,starpu_mlr_analysis,starpu_mlr_analysis.Rmd,starpu_mpi_comm_matrix.py,starpu_paje_draw_histogram,starpu_paje_draw_histogram.R,starpu_paje_state_stats,starpu_paje_state_stats.R,starpu_paje_summary,starpu_paje_summary.Rmd,starpu_perfmodel_display,starpu_perfmodel_plot,starpu_perfmodel_recdump,starpu_sched_display,starpu_send_recv_data_use.py,starpu_tasks_rec_complete,starpu_tcpipexec,starpu_temanejo2.sh,starpu_trace_state_stats.py,starpu_workers_activity
+
+name: steam-installer
+version: 1:1.0.0.85~ds-2build1
+commands: steam
+
+name: submux-dvd
+version: 0.5.2-0ubuntu3
+commands: submux-dvd,vob2sub
+
+name: svtools
+version: 0.6-6build1
+commands: mlcat,mlhead,mltac,mltail,svdir,svinfo,svinitd,svinitd-create,svsetup
+
+name: taradino
+version: 20251222-1
+commands: taradino,taradino-shareware
+
+name: tegrarcm
+version: 1.8-2build2
+commands: tegrarcm
+
+name: testu01-bin
+version: 1.2.3+ds1-3build1
+commands: testu01-tcode
+
+name: tightvnc-java
+version: 1.3.10-5build1
+commands: jtightvncviewer
+
+name: titantools
+version: 4.0.11+notdfsg1-7.1build1
+commands: noshell,runas
+
+name: tome
+version: 2.41-ah~0.git.20200131-1.4
+commands: tome-gcu,tome-x11
+
+name: translate-shell
+version: 0.9.7.1-2build1
+commands: trans
+
+name: treeview
+version: 1.2.0+dfsg-2build1
+commands: treeview
+
+name: triangle-bin
+version: 1.6-7
+commands: showme,triangle,tricall
+
+name: trn4
+version: 4.0-test77-19
+commands: Pnews,Rnmail,nntplist,rn,trn,trn-artchk,trn4
+
+name: trnascan-se
+version: 2.0.12+ds-2
+commands: EukHighConfidenceFilter,MitoHighConfidenceFilter,covels-SE,coves-SE,eufindtRNA,fasta2gsi,sstofa,tRNAscan-SE,trnascan-1.4
+
+name: ugene
+version: 52.1+dfsg-1
+commands: ugene,ugenecl,ugenem,ugeneui
+
+name: uhexen2
+version: 1.5.9+git20230520.3380711+dfsg-2
+commands: glhexen2,glhwcl,h2ded,h2patch,hcc,hexen2,hwcl,hwmaster,hwsv
+
+name: unace-nonfree
+version: 2.5-10build1
+commands: unace
+
+name: unrar
+version: 1:7.2.4-1
+commands: unrar,unrar-nonfree
+
+name: uqm
+version: 0.8.0+dfsg-4
+commands: uqm
+
+name: uqm-russian
+version: 1.0.2-7
+commands: uqm_russian
+
+name: varscan
+version: 2.4.3+dfsg-5
+commands: varscan
+
+name: vcmi
+version: 1.7.3+dfsg-1
+commands: vcmibuilder,vcmiclient,vcmieditor,vcmilauncher,vcmiserver
+
+name: vdjtools
+version: 1.2.1+git20190311+repack-2build1
+commands: vdjtools
+
+name: vice
+version: 3.9+dfsg-1build1
+commands: c1541,cartconv,petcat,vsid,x128,x64,x64dtv,x64sc,xcbm2,xcbm5x0,xpet,xplus4,xscpu64,xvic
+
+name: videotrans
+version: 1.6.1-9build1
+commands: movie-compare-dvd,movie-fakewavspeed,movie-make-title,movie-make-title-simple,movie-progress,movie-rip-epg.data,movie-title,movie-to-dvd,movie-zoomcalc
+
+name: vienna-rna
+version: 2.7.0+dfsg-2
+commands: AnalyseDists,AnalyseSeqs,Kinfold,RNA2Dfold,RNALalifold,RNALfold,RNAPKplex,RNAaliduplex,RNAalifold,RNAcofold,RNAconsensus,RNAdistance,RNAdos,RNAduplex,RNAeval,RNAfold,RNAheat,RNAinverse,RNAlocmin,RNAmultifold,RNApaln,RNAparconv,RNApdist,RNAplex,RNAplfold,RNAplot,RNApvmin,RNAsnoop,RNAsubopt,RNAup,b2ct,ct2db,popt
+
+name: virtualbox
+version: 7.2.6-dfsg-4
+commands: VBoxBalloonCtrl,VBoxHeadless,VBoxManage,VBoxSDL,vbox-img,vboxballoonctrl,vboxheadless,vboximg-mount,vboxmanage,vboxsdl,vboxwebsrv
+
+name: virtualbox-guest-utils
+version: 7.2.6-dfsg-4
+commands: VBoxControl,VBoxService,mount.vboxsf
+
+name: virtualbox-guest-x11
+version: 7.2.6-dfsg-4
+commands: VBoxClient,VBoxDRMClient
+
+name: virtualbox-qt
+version: 7.2.6-dfsg-4
+commands: VirtualBox,VirtualBoxVM,virtualbox,virtualboxvm
+
+name: vmware-manager
+version: 0.2.0-4build1
+commands: vwm
+
+name: wdq2wav
+version: 1.0.0-1.2build1
+commands: wdq2wav
+
+name: weirdx
+version: 1.0.32-8build1
+commands: weirdx
+
+name: wolf4sdl
+version: 20251124-1
+commands: wolf4sdl,wolf4sdl-sdm,wolf4sdl-sod,wolf4sdl-wl1,wolf4sdl-wl6,wolf4sdl-wl6a,wolf4sdl-wl6a1
+
+name: x13as
+version: 1.1-b62-1
+commands: x13as
+
+name: xfractint
+version: 20.4.10-6
+commands: xfractint,xtfractint
+
+name: xml2rfc
+version: 3.30.2-1
+commands: xml2rfc
+
+name: xsnow
+version: 1:3.8.6-1
+commands: xsnow
+
+name: xtrs
+version: 4.9d-3
+commands: cassette,cmddump,hex2cmd,mkdisk,xtrs
+
+name: xvid4conf
+version: 1.12-dmo2ubuntu5
+commands: xvid4conf
+
+name: ydpdict
+version: 1.0.5-1build1
+commands: ydpdict
+
+name: zangband
+version: 1:2.7.5pre1-15build1
+commands: zangband
+

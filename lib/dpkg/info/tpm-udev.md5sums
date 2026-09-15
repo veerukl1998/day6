@@ -1,0 +1,8 @@
+b1490a907b371dde7068ee47530d6e9c  usr/lib/systemd/system/tpm-udev.path
+c4e4d3e3801a3255192412be004fb957  usr/lib/systemd/system/tpm-udev.service
+2f354d307211e14502f5da5ca9599348  usr/lib/sysusers.d/tpm2-tss.conf
+deff7517aba4b158532ed25f3cfd0ddc  usr/lib/tmpfiles.d/tpm-udev.conf
+7423467cd4f02136d15c3f6486b153ce  usr/lib/tmpfiles.d/tpm2-tss-fapi.conf
+fce70e5150df24c72b4331a12c4ea0a4  usr/lib/udev/rules.d/60-tpm-udev.rules
+396989ee6f143e962de24f615476942b  usr/share/doc/tpm-udev/changelog.Debian.gz
+a5a2f84ac9b250a608a09cff39dbd7d3  usr/share/doc/tpm-udev/copyright

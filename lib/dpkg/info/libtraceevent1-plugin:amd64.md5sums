@@ -1,0 +1,15 @@
+593b1b2f7b618bc4f49224ddc16077c1  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_cfg80211.so
+a6061b9fa87f0f5d23e955a6df19a33f  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_function.so
+7adb34bc6156a4986ea4d24927ff59f4  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_futex.so
+c173776bf4a96900dff6988ee3f1e220  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_hrtimer.so
+bde0c35a72eb014726a41092a9dbc62a  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_jbd2.so
+5a8037f892afff8dc06feacf574805d5  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_kmem.so
+2324e052b6f663d101d8419be8c1c3d8  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_kvm.so
+69063b78e3e18fa38d08abfadbd61fd1  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_mac80211.so
+0054d4c1d5e377d3590eb41cc9d63edd  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_net.so
+7c63b4d6d488ecae62eba898ddb82114  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_sched_switch.so
+c4252e49edbd13e1e90a57a15c354d35  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_scsi.so
+5c675cb587c8310c72e1722ca8d5287d  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_tlb.so
+43a015e0703f5f9d3bd8fd989ed90daf  usr/lib/x86_64-linux-gnu/traceevent/plugins/plugin_xen.so
+45eb6bea270748c004a9da01dad4a32c  usr/share/doc/libtraceevent1-plugin/copyright
+3ba8cddb88afb55901c0e5d80d4902df  usr/share/lintian/overrides/libtraceevent1-plugin

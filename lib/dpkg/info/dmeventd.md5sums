@@ -1,0 +1,11 @@
+3f367ca608971d4441f3a5e175195d03  usr/lib/systemd/system/dm-event.service
+51236e925b66f616904e73e9030b8d85  usr/lib/systemd/system/dm-event.socket
+5a8c535fa99926f139b396a08d2dd1bd  usr/lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2mirror.so
+2f7a4d53367325536b0c3fa51397d3ed  usr/lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2raid.so
+17a33c8757ce79afe2e1f47341b75d15  usr/lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2snapshot.so
+acd3e01cdb71cecb2242e23e4d5f2292  usr/lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2thin.so
+fb365db46bfc1e573556f4c5f45a591f  usr/lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2vdo.so
+29f55e744d2565d0970c9087431c86d7  usr/lib/x86_64-linux-gnu/libdevmapper-event-lvm2.so.2.03
+0a40ab01ef688801093c47bb82c5e5eb  usr/sbin/dmeventd
+356882271d166f18b2a75be414763861  usr/share/doc/dmeventd/copyright
+0e9677ac8f706c1bd0eecdeb8df831df  usr/share/man/man8/dmeventd.8.gz

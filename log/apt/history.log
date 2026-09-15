@@ -1,0 +1,35 @@
+
+Start-Date: 2026-06-04  05:42:20
+Commandline: apt-get install -qqy grub-pc shim-signed
+Install: mokutil:amd64 (0.7.2-2, automatic), grub-efi-amd64-unsigned:amd64 (2.14-2ubuntu1, automatic), grub-efi-amd64-signed:amd64 (1.215+2.14-2ubuntu1, automatic), grub-efi-amd64-bin:amd64 (2.14-2ubuntu1, automatic), efibootmgr:amd64 (18-4ubuntu1, automatic), shim-signed:amd64 (1.59+15.8-0ubuntu2)
+End-Date: 2026-06-04  05:42:22
+
+Start-Date: 2026-06-04  05:46:32
+Commandline: apt-get remove --purge --assume-yes ^linux-.* linux-base+
+Purge: linux-tools-common:amd64 (7.0.0-22.22), linux-virtual:amd64 (7.0.0-22.22), linux-headers-generic:amd64 (7.0.0-22.22), linux-perf:amd64 (7.0.0-22.22), linux-main-modules-zfs-7.0.0-22-generic:amd64 (7.0.0-22.22), linux-image-virtual:amd64 (7.0.0-22.22), linux-modules-7.0.0-22-generic:amd64 (7.0.0-22.22), linux-image-7.0.0-22-generic:amd64 (7.0.0-22.22), linux-headers-7.0.0-22-generic:amd64 (7.0.0-22.22), linux-tools-7.0.0-22:amd64 (7.0.0-22.22), linux-sysctl-defaults:amd64 (4.15ubuntu5), linux-headers-7.0.0-22:amd64 (7.0.0-22.22), linux-headers-virtual:amd64 (7.0.0-22.22), libc6-dev:amd64 (2.43-2ubuntu2), linux-tools-7.0.0-22-generic:amd64 (7.0.0-22.22), linux-libc-dev:amd64 (7.0.0-22.22)
+End-Date: 2026-06-04  05:46:39
+
+Start-Date: 2026-06-04  05:53:37
+Commandline: apt-get install --assume-yes linux-aws
+Install: linux-image-aws:amd64 (7.0.0-1006.6, automatic), linux-tools-common:amd64 (7.0.0-22.22, automatic), linux-aws-headers-7.0.0-1006:amd64 (7.0.0-1006.6, automatic), linux-aws-tools-7.0.0-1006:amd64 (7.0.0-1006.6, automatic), linux-perf:amd64 (7.0.0-22.22, automatic), iucode-tool:amd64 (2.3.1-3build2, automatic), linux-headers-7.0.0-1006-aws:amd64 (7.0.0-1006.6, automatic), linux-main-modules-zfs-7.0.0-1006-aws:amd64 (7.0.0-1006.6, automatic), linux-headers-aws:amd64 (7.0.0-1006.6, automatic), linux-image-7.0.0-1006-aws:amd64 (7.0.0-1006.6, automatic), microcode-initrd:amd64 (4ubuntu, automatic), linux-aws:amd64 (7.0.0-1006.6), linux-tools-7.0.0-1006-aws:amd64 (7.0.0-1006.6, automatic), linux-modules-7.0.0-1006-aws:amd64 (7.0.0-1006.6, automatic), amd64-microcode:amd64 (3.20251202.1ubuntu2, automatic), intel-microcode:amd64 (3.20260210.1ubuntu2, automatic)
+End-Date: 2026-06-04  05:54:09
+
+Start-Date: 2026-06-04  05:54:12
+Commandline: apt-get autoremove --purge --assume-yes
+Purge: manpages-dev:amd64 (6.17-1), wireless-regdb:amd64 (2026.02.04-0ubuntu1), rpcsvc-proto:amd64 (1.4.3-1build1), libc-dev-bin:amd64 (2.43-2ubuntu2)
+End-Date: 2026-06-04  05:54:13
+
+Start-Date: 2026-06-04  05:54:16
+Commandline: apt-get install --assume-yes ec2-instance-connect
+Install: ec2-instance-connect:amd64 (1.1.17-0ubuntu2)
+End-Date: 2026-06-04  05:54:16
+
+Start-Date: 2026-06-04  05:54:19
+Commandline: apt-get install --assume-yes ec2-hibinit-agent
+Install: acpid:amd64 (1:2.0.34-1ubuntu3, automatic), ec2-hibinit-agent:amd64 (1.0.9-0ubuntu1)
+End-Date: 2026-06-04  05:54:20
+
+Start-Date: 2026-06-04  05:56:09
+Commandline: apt-get -y install irqbalance
+Install: irqbalance:amd64 (1.9.4-3)
+End-Date: 2026-06-04  05:56:10

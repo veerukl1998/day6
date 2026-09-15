@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdns-9.20.18-1ubuntu2.1-Ubuntu.so
+/usr/lib/x86_64-linux-gnu/libisc-9.20.18-1ubuntu2.1-Ubuntu.so
+/usr/lib/x86_64-linux-gnu/libisccc-9.20.18-1ubuntu2.1-Ubuntu.so
+/usr/lib/x86_64-linux-gnu/libisccfg-9.20.18-1ubuntu2.1-Ubuntu.so
+/usr/lib/x86_64-linux-gnu/libns-9.20.18-1ubuntu2.1-Ubuntu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/bind9-libs
+/usr/share/doc/bind9-libs/changelog.Debian.gz
+/usr/share/doc/bind9-libs/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/bind9-libs

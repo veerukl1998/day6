@@ -1,0 +1,4 @@
+1a84ff4eca54cf9a78b4eb39ede78a14  usr/sbin/update-initramfs
+047d36dfbebe0adf201443a38804f0f5  usr/share/bash-completion/completions/update-initramfs
+17c858252d76ecee8fe7adb2abac4316  usr/share/doc/dracut/copyright
+625bc4b040eaab15958b00f8edc74171  usr/share/man/man8/update-initramfs.8.gz

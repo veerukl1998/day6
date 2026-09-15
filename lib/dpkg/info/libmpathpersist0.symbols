@@ -1,0 +1,23 @@
+libmpathpersist.so.0 libmpathpersist0 #MINVER#
+| libmpathpersist0 (= 0.14.3-2ubuntu1)
+* Build-Depends-Package: libmpathpersist-dev
+ LIBMPATHPERSIST_2.1.0@LIBMPATHPERSIST_2.1.0 0.11.1
+ LIBMPATHPERSIST_2.2.0@LIBMPATHPERSIST_2.2.0 0.11.1
+ __LIBMPATHPERSIST_INT_2.1.0@__LIBMPATHPERSIST_INT_2.1.0 0 1
+ __mpath_persistent_reserve_in@LIBMPATHPERSIST_2.1.0 0.11.1
+ __mpath_persistent_reserve_out@LIBMPATHPERSIST_2.1.0 0.11.1
+ dumpHex@__LIBMPATHPERSIST_INT_2.1.0 0 1
+ libmpathpersist_exit@LIBMPATHPERSIST_2.1.0 0.11.1
+ libmpathpersist_init@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_alloc_prin_response@__LIBMPATHPERSIST_INT_2.1.0 0 1
+ mpath_lib_exit@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_lib_init@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_mx_alloc_len@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_persistent_reserve_free_vecs@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_persistent_reserve_in@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_persistent_reserve_in__@LIBMPATHPERSIST_2.2.0 0.11.1
+ mpath_persistent_reserve_init_vecs@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_persistent_reserve_out@LIBMPATHPERSIST_2.1.0 0.11.1
+ mpath_persistent_reserve_out__@LIBMPATHPERSIST_2.2.0 0.11.1
+ prin_do_scsi_ioctl@__LIBMPATHPERSIST_INT_2.1.0 0 1
+ prout_do_scsi_ioctl@__LIBMPATHPERSIST_INT_2.1.0 0 1

@@ -1,0 +1,5 @@
+dbc65288206292565c0e77b28433bf1c  usr/lib/x86_64-linux-gnu/libparted.so.2.0.5
+dd7ca66089c0d7a23ad287a7866f30c1  usr/share/doc/libparted2t64/NEWS.gz
+bfd83a60fb0d1050eaa4f94718ea3e8e  usr/share/doc/libparted2t64/changelog.Debian.gz
+ae9fb49acaefac7f807aa2e0463f2733  usr/share/doc/libparted2t64/copyright
+3cafb125ef24ec2969827f6bc12f8b87  usr/share/lintian/overrides/libparted2t64

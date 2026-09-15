@@ -1,0 +1,8 @@
+dcadbf5403c81b7289e5f3f099334a34  usr/lib/systemd/system/irqbalance.service
+ebc25dfea696d91855533268dd208128  usr/sbin/irqbalance
+e37bc4cac2dab9b137f264e4beb7bd28  usr/sbin/irqbalance-ui
+e5f1cc5522abac186754cb500ef7372f  usr/share/doc/irqbalance/changelog.Debian.gz
+cd97ca52dc037920b5f7e76faa293e6a  usr/share/doc/irqbalance/copyright
+19ee2920c8c544afd55ca00f6e2d7be1  usr/share/lintian/overrides/irqbalance
+08ff3220b3cd396c070be9c0a8ed8f63  usr/share/man/man1/irqbalance-ui.1.gz
+1cba4954b602cf76f8e5c9069d62f31a  usr/share/man/man1/irqbalance.1.gz

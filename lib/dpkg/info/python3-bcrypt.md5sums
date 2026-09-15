@@ -1,0 +1,11 @@
+c72246579c4437c07cebb86fbcbc6d90  usr/lib/python3/dist-packages/bcrypt-5.0.0.dist-info/INSTALLER
+4c924823c5961a9700b1b1f99b2cb977  usr/lib/python3/dist-packages/bcrypt-5.0.0.dist-info/METADATA
+0ed9d6c5dd9e089c06bc843097dee9a3  usr/lib/python3/dist-packages/bcrypt-5.0.0.dist-info/WHEEL
+4b920934ff1e80c39b555f00e313a8c1  usr/lib/python3/dist-packages/bcrypt-5.0.0.dist-info/top_level.txt
+2d8ff678027389f1ed1a71c2feae9754  usr/lib/python3/dist-packages/bcrypt/__init__.py
+453d91f662f892d123ac6ee77e5dd2b7  usr/lib/python3/dist-packages/bcrypt/__init__.pyi
+8cf2bec2da67731ecd1356782b4defbd  usr/lib/python3/dist-packages/bcrypt/_bcrypt.cpython-314-x86_64-linux-gnu.so
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/bcrypt/py.typed
+e5351f625b539b24374251da6245c51e  usr/share/doc/python3-bcrypt/README.rst.gz
+14d3063958239f1a60618a8472103add  usr/share/doc/python3-bcrypt/changelog.Debian.gz
+6cdb59379f017d5885b927be7ab33c4a  usr/share/doc/python3-bcrypt/copyright

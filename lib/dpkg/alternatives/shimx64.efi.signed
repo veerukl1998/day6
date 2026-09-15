@@ -1,0 +1,10 @@
+auto
+/usr/lib/shim/shimx64.efi.signed
+
+/usr/lib/shim/shimx64.efi.signed.latest
+100
+/usr/lib/shim/shimx64.efi.signed.previous
+50
+/usr/lib/shim/shimx64.nx.efi.signed.latest
+25
+

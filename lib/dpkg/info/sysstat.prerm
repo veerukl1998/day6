@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e 
+
+[ "$1" != "upgrade" ] && update-alternatives --remove sar /usr/bin/sar.sysstat
+
+
+# Automatically added by dh_installsystemd/13.28ubuntu1
+if [ -z "$DPKG_ROOT" ] && [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	deb-systemd-invoke stop 'sysstat-collect.service' 'sysstat-collect.timer' 'sysstat-rotate.service' 'sysstat-rotate.timer' 'sysstat-summary.service' 'sysstat-summary.timer' 'sysstat.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/13.28ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/profile.d/sysstat.sh 11.7.3\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/init.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+# End automatically added section
+
+
+exit 0

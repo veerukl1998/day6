@@ -1,0 +1,4 @@
+f5a3587ff3dce33f0216c3f01c025182  usr/lib/libmpathutil.so.0
+8f42363eed126d90b3a3a93c8acbda2b  usr/lib/libmultipath.so.0
+d528e9f457dead11dbfcf208123acf55  usr/share/doc/libmultipath0/copyright
+411bdf868239c83e19d0254308db036a  usr/share/lintian/overrides/libmultipath0

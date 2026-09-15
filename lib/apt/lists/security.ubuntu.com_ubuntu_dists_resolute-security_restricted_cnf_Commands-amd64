@@ -1,0 +1,69 @@
+suite: resolute-security
+component: restricted
+arch: amd64
+
+
+name: libnvidia-gl-580
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-ngx-updater,nvidia-pcc
+
+name: libnvidia-gl-580-server
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-ngx-updater,nvidia-pcc
+
+name: libnvidia-gl-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-ngx-updater,nvidia-pcc
+
+name: libnvidia-gl-595-server
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-ngx-updater,nvidia-pcc
+
+name: nvidia-compute-utils-580
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-580-server
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-595-server
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-kernel-common-580
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-powerd,nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-580-server
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-powerd,nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-powerd,nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-595-server
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-powerd,nvidia-sleep.sh,ub-device-create
+
+name: nvidia-utils-580
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-580-server
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-595-server
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+

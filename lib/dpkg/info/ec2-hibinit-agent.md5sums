@@ -1,0 +1,12 @@
+11f5204b35d81e1b129a0b99d0a35f40  usr/bin/hibinit-agent
+9df239c8a7bd89b6befa49b84238ddeb  usr/lib/ec2-hibinit-agent/hibinit-resume
+a0fd312f614257fc105731080486d6c5  usr/lib/python3/dist-packages/ec2_hibinit_agent-1.0.9.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/ec2_hibinit_agent-1.0.9.egg-info/dependency_links.txt
+70d0b2e08bc614b5e2c81f1b0d4ec630  usr/lib/python3/dist-packages/ec2_hibinit_agent-1.0.9.egg-info/top_level.txt
+27a982dd26f74948e0d9a7e489d575bd  usr/lib/systemd/logind.conf.d/ec2-hibinit-agent-ignore-powerkey.conf
+9393d3c6cd30865f4d178e0c6b99a96e  usr/lib/systemd/sleep.conf.d/ec2-hibinit-agent-no-suspend.conf
+3c299d0818f586e0b9794bbe0dd52e1f  usr/lib/systemd/system-sleep/hibinit-agent
+65fd343aea290dcd7335421f3e3b1f4f  usr/lib/systemd/system/hibinit-agent.service
+03253188f71b333078000a347560ada2  usr/share/doc/ec2-hibinit-agent/README.md
+657e0bb0a97289fef6f4e51b7c821ffb  usr/share/doc/ec2-hibinit-agent/changelog.Debian.gz
+08400ac23288f76b2213b7cf086900b6  usr/share/doc/ec2-hibinit-agent/copyright

@@ -1,0 +1,10 @@
+c8daee45fa4ef10ba3c33549500a0f8c  usr/lib/python3/dist-packages/rpds/__init__.py
+56c3f5231c7251b6678aa2f394c4b33a  usr/lib/python3/dist-packages/rpds/__init__.pyi
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/rpds/py.typed
+b9e7ab2f74558927fb04460d108ae4db  usr/lib/python3/dist-packages/rpds/rpds.cpython-314-x86_64-linux-gnu.so
+c72246579c4437c07cebb86fbcbc6d90  usr/lib/python3/dist-packages/rpds_py-0.27.1.dist-info/INSTALLER
+e00024c495d4b110ae6c9d8a340e547a  usr/lib/python3/dist-packages/rpds_py-0.27.1.dist-info/METADATA
+85f20c8808015e6ed8ce234d40339292  usr/lib/python3/dist-packages/rpds_py-0.27.1.dist-info/WHEEL
+de9bd807a51cd7e07d20d002102c4a2f  usr/share/doc/python3-rpds-py/Cargo.lock.gz
+d6802053ef242cb3f270111dcd192a43  usr/share/doc/python3-rpds-py/changelog.Debian.gz
+463a4a233552bdeb9d85304a6dcec2f1  usr/share/doc/python3-rpds-py/copyright

@@ -1,0 +1,5 @@
+bb27d91949b606ae8d065b8c6b548e23  usr/lib/initramfs-tools/bin/busybox
+75540da24bd2d6361b3bbe1e2d8b0df0  usr/share/doc/busybox-initramfs/changelog.Debian.gz
+e4a6f98fa82c414802eae075f1e6e837  usr/share/doc/busybox-initramfs/copyright
+2f2ccacde0f0b3b592c4255b182262c5  usr/share/initramfs-tools/conf-hooks.d/busybox-initramfs
+98b96cb2fe3a3a506c4b60ffe7f49ce1  usr/share/initramfs-tools/hooks/zz-busybox-initramfs

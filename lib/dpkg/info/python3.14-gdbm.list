@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3.14
+/usr/lib/python3.14/lib-dynload
+/usr/lib/python3.14/lib-dynload/_gdbm.cpython-314-x86_64-linux-gnu.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3.14-gdbm
+/usr/share/doc/python3.14-gdbm/README.Debian
+/usr/share/doc/python3.14-gdbm/changelog.Debian.gz
+/usr/share/doc/python3.14-gdbm/copyright

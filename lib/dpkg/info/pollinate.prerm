@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ -z "$DPKG_ROOT" ] && [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	deb-systemd-invoke stop 'pollinate.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/13.31ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/init/pollinate.conf 4.27-0ubuntu1\~ pollinate -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/pollinate/entropy.ubuntu.com.pem 4.33-4ubuntu6\~ pollinate -- "$@"
+# End automatically added section

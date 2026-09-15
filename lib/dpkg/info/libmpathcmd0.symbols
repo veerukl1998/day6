@@ -1,0 +1,13 @@
+libmpathcmd.so.0 libmpathcmd0 #MINVER#
+* Build-Depends-Package: libmpathcmd-dev
+ LIBMPATHCMD_1.0.0@LIBMPATHCMD_1.0.0 0.11.1
+ LIBMPATHCMD_1.1.0@LIBMPATHCMD_1.1.0 0.11.1
+ __mpath_connect@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_connect@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_connect__@LIBMPATHCMD_1.1.0 0.11.1
+ mpath_disconnect@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_process_cmd@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_recv_reply@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_recv_reply_data@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_recv_reply_len@LIBMPATHCMD_1.0.0 0.11.1
+ mpath_send_cmd@LIBMPATHCMD_1.0.0 0.11.1

@@ -1,0 +1,12 @@
+4c1f484dad9ab4fc383a779d43c0ae1e  usr/lib/python3/dist-packages/jaraco/text/__init__.py
+f4e96357b93823fb4f257388fe1b6ec5  usr/lib/python3/dist-packages/jaraco/text/layouts.py
+ab2e9750a0f1d3da260c1804e7a180af  usr/lib/python3/dist-packages/jaraco/text/show-newlines.py
+2f972184fa10875f0588e1c36f105b91  usr/lib/python3/dist-packages/jaraco/text/strip-prefix.py
+945163c9282f00e25561771918c4425c  usr/lib/python3/dist-packages/jaraco/text/to-dvorak.py
+3bea2d056aff8f2dffd2322077966537  usr/lib/python3/dist-packages/jaraco/text/to-qwerty.py
+c72246579c4437c07cebb86fbcbc6d90  usr/lib/python3/dist-packages/jaraco_text-4.0.0.dist-info/INSTALLER
+1e134a29596351335a8c42b6268ea914  usr/lib/python3/dist-packages/jaraco_text-4.0.0.dist-info/METADATA
+ef2c8f2df39dac373c521c2b1220ef39  usr/lib/python3/dist-packages/jaraco_text-4.0.0.dist-info/WHEEL
+0ba8d736b7b4ab182687318b0497e61e  usr/lib/python3/dist-packages/jaraco_text-4.0.0.dist-info/top_level.txt
+548413bace5bb313d62da48f86e3e19e  usr/share/doc/python3-jaraco.text/changelog.Debian.gz
+743fa4284a276901dd3f13b08e130043  usr/share/doc/python3-jaraco.text/copyright

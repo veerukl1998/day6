@@ -1,0 +1,2 @@
+/etc/dracut.conf
+/etc/logrotate.d/dracut-core

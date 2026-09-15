@@ -1,0 +1,8 @@
+4868762a5d714ce5e787eeb4ef21f18f  usr/bin/qmi-firmware-update
+e48ec41d1795c016eb730ec74ad28dae  usr/bin/qmi-network
+8168ea7cdd11f713abed5583188c9b48  usr/bin/qmicli
+3e03eababb36a7a3e7f73557ff5fe72d  usr/share/bash-completion/completions/qmicli
+a6a7e131b847bb65b44c65f5864fe3d6  usr/share/doc/libqmi-utils/copyright
+2b578a3acf544f33632578483f9ede41  usr/share/man/man1/qmi-firmware-update.1.gz
+69a2e3fed221dc57e005be1cbac0b00e  usr/share/man/man1/qmi-network.1.gz
+841ab1fa9fa725d0bde020e9b6a86a5e  usr/share/man/man1/qmicli.1.gz

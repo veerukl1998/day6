@@ -1,0 +1,14 @@
+e3cf9f6ccc89216ad2c45267d4e0d17b  usr/bin/dirmngr
+1c12a6e5b197f35731d59daffaac849c  usr/bin/dirmngr-client
+fb3b0117a8dbc26bda23bbfccbefe67a  usr/lib/gnupg/dirmngr_ldap
+c524c839628dd23b3966bca442b915bc  usr/lib/systemd/user/dirmngr.service
+55070b8cf2347282d1baf97eb90ca319  usr/lib/systemd/user/dirmngr.socket
+6fb4c3b6bba57cf6d222faf81b354790  usr/share/doc/dirmngr/AUTHORS.gz
+dfef42ac91d38ec31553764e477295ba  usr/share/doc/dirmngr/KEYSERVER
+79d8b1275e02ab6f23266097e0f7d6e9  usr/share/doc/dirmngr/NEWS.gz
+adfc00b5b0d910747dfe91f1aae589a0  usr/share/doc/dirmngr/README.Debian
+59856cfbb86b69de32a9a0ea5800cd4e  usr/share/doc/dirmngr/THANKS.gz
+6cab8642ed8790f0e68cb72781a63a22  usr/share/doc/dirmngr/TODO
+34026339a310743ebec4d2ad6fb5127b  usr/share/doc/dirmngr/copyright
+103ddfee1193796e967f9f2ba529eb89  usr/share/man/man1/dirmngr-client.1.gz
+13bd2a4c94fe7c623564e3c70cf715ae  usr/share/man/man8/dirmngr.8.gz

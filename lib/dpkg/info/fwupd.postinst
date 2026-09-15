@@ -1,0 +1,61 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_installsysusers/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+   systemd-sysusers ${DPKG_ROOT:+--root="$DPKG_ROOT"} fwupd.conf
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/13.31ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/dbus-1/system.d/org.freedesktop.fwupd.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/ata.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/daemon.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/msr.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/redfish.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/remotes.d/dell-esrt.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/remotes.d/fwupd.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/remotes.d/vendor.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/thunderbolt.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/uefi.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/uefi_capsule.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/fwupd/upower.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/modules-load.d/fwupd-msr.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/modules-load.d/fwupd-platform-integrity.conf 2.0.6-5\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/pki/fwupd/GPG-KEY-Hughski-Limited 2.0.6-5\~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# The following line should be removed in trixie or trixie+1
+	deb-systemd-helper unmask 'fwupd-refresh.timer' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'fwupd-refresh.timer'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'fwupd-refresh.timer' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'fwupd-refresh.timer' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -d /run/systemd/system ]; then
+		systemctl --system daemon-reload >/dev/null || true
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		deb-systemd-invoke $_dh_action 'fwupd-refresh.service' 'fwupd-refresh.timer' 'fwupd.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+if [ -d /run/systemd/system ]; then
+    deb-systemd-invoke reload dbus || true
+fi

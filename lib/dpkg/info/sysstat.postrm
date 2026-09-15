@@ -1,0 +1,42 @@
+#!/bin/sh
+# vim:ts=4:et
+
+PACKAGE="sysstat"
+DEFAULT="/etc/default/$PACKAGE"
+
+set -e
+# remove logfiles and default file when package is purged
+if [ "$1" =  "purge" ] ; then
+    rm -rf /var/log/sysstat
+    rm -f "$DEFAULT"
+    ! command -v ucf >/dev/null || ucf --purge "$DEFAULT"
+    ! command -v ucfr >/dev/null || ucfr --purge "$PACKAGE" "$DEFAULT"
+fi
+
+# Automatically added by dh_installdeb/13.28ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/profile.d/sysstat.sh 11.7.3\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/init.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/13.28ubuntu1
+if [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.28ubuntu1
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'sysstat-collect.timer' 'sysstat-rotate.timer' 'sysstat-summary.timer' 'sysstat.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdebconf/13.28ubuntu1
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+
+exit 0

@@ -1,0 +1,6 @@
+libefa 1 ibverbs-providers (>= 61.0)
+libhns 1 ibverbs-providers (>= 61.0)
+libionic 1 ibverbs-providers (>= 61.0)
+libmana 1 ibverbs-providers (>= 61.0)
+libmlx4 1 ibverbs-providers (>= 61.0)
+libmlx5 1 ibverbs-providers (>= 61.0)

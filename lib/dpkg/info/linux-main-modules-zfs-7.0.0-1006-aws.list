@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/modules
+/usr/lib/modules/7.0.0-1006-aws
+/usr/lib/modules/7.0.0-1006-aws/kernel
+/usr/lib/modules/7.0.0-1006-aws/kernel/zfs
+/usr/lib/modules/7.0.0-1006-aws/kernel/zfs/spl.ko.zst
+/usr/lib/modules/7.0.0-1006-aws/kernel/zfs/zfs.ko.zst
+/usr/share
+/usr/share/doc
+/usr/share/doc/linux-main-modules-zfs-7.0.0-1006-aws
+/usr/share/doc/linux-main-modules-zfs-7.0.0-1006-aws/changelog.Debian.gz
+/usr/share/doc/linux-main-modules-zfs-7.0.0-1006-aws/copyright

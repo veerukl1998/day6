@@ -1,0 +1,11 @@
+c72246579c4437c07cebb86fbcbc6d90  usr/lib/python3/dist-packages/service_identity-24.2.0.dist-info/INSTALLER
+65b8cd7c386e267f752ef205f1c503b0  usr/lib/python3/dist-packages/service_identity-24.2.0.dist-info/METADATA
+dd95d21b625abe50e9871ca662c835ab  usr/lib/python3/dist-packages/service_identity-24.2.0.dist-info/WHEEL
+9eb773a41c83100b2f40d51a1bb95cc3  usr/lib/python3/dist-packages/service_identity/__init__.py
+c3bfbb4a4d506f47c4d975119d292349  usr/lib/python3/dist-packages/service_identity/cryptography.py
+3759210901e876fca8aa75c3420b2990  usr/lib/python3/dist-packages/service_identity/exceptions.py
+6662ec05d870bebde0323f16b6f33921  usr/lib/python3/dist-packages/service_identity/hazmat.py
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/service_identity/py.typed
+16c0d3453e14d086c5e30ba15ed0d607  usr/lib/python3/dist-packages/service_identity/pyopenssl.py
+329721933c14be1bec4731bb65004e64  usr/share/doc/python3-service-identity/changelog.Debian.gz
+327b1ca2d3628c552a0a081a84f54590  usr/share/doc/python3-service-identity/copyright

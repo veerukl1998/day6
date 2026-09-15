@@ -1,0 +1,30 @@
+{
+ "v1": {
+  "datasource": "DataSourceEc2Local",
+  "init": {
+   "errors": [],
+   "finished": 13.02,
+   "recoverable_errors": {},
+   "start": 12.65
+  },
+  "init-local": {
+   "errors": [],
+   "finished": 12.61,
+   "recoverable_errors": {},
+   "start": 9.52
+  },
+  "modules-config": {
+   "errors": [],
+   "finished": 15.21,
+   "recoverable_errors": {},
+   "start": 14.83
+  },
+  "modules-final": {
+   "errors": [],
+   "finished": 17.78,
+   "recoverable_errors": {},
+   "start": 17.59
+  },
+  "stage": null
+ }
+}

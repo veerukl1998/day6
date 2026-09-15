@@ -1,0 +1,17 @@
+0b353309e6435ce9b74e7f2fa4feaadb  usr/sbin/bpftool
+16157bdca25c79bc10546dd5312721b2  usr/share/bash-completion/completions/bpftool
+2fbdea281406cbc0cbd0b6865969c091  usr/share/doc/bpftool/changelog.Debian.gz
+a8941f8b5b3adb2ab3bb8d0fd69bc2ac  usr/share/doc/bpftool/copyright
+0fdff3e23bf75d0aa80b73c6fa5241e5  usr/share/man/man8/bpftool-btf.8.gz
+6c16c538d85a7e8b915ccd33c18f2b2b  usr/share/man/man8/bpftool-cgroup.8.gz
+95f7908861c6dda40ae2a7242ff369a2  usr/share/man/man8/bpftool-feature.8.gz
+6b2c8062fc25bc0e4701ac5b0ef98550  usr/share/man/man8/bpftool-gen.8.gz
+b8697d5db03a111cd007877696cb5b36  usr/share/man/man8/bpftool-iter.8.gz
+eb0536087a9a40af661568e469a8c3ed  usr/share/man/man8/bpftool-link.8.gz
+bd88135d94b7bbf65e323729eeff8f6e  usr/share/man/man8/bpftool-map.8.gz
+2b6298840e97aebc42804baee8d1dee7  usr/share/man/man8/bpftool-net.8.gz
+dc17130e5ee7be47c0688d6857f702af  usr/share/man/man8/bpftool-perf.8.gz
+d2d62f100cef201301e949c62ac8da12  usr/share/man/man8/bpftool-prog.8.gz
+a6a15c36737bb2ede3ea1dada7743e61  usr/share/man/man8/bpftool-struct_ops.8.gz
+6b4e53d885d8816f1fbe0bf3b7ba7354  usr/share/man/man8/bpftool-token.8.gz
+5d0e8df86e78eae374b879645fa60a50  usr/share/man/man8/bpftool.8.gz

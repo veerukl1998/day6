@@ -1,0 +1,237 @@
+Package: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 12
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Suggests: dgedit
+Depends: lsp-plugins-clap, lsp-plugins-jack, lsp-plugins-ladspa, lsp-plugins-lv2, lsp-plugins-vst, lsp-plugins-vst3
+Filename: pool/universe/l/lsp-plugins/lsp-plugins_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 2866
+MD5sum: 7d94730a86b25e7859bc0dd12f5845f4
+SHA1: a91549b4a7970d009503280bef55fea9b2ad77fe
+SHA256: 565170cffc9cd36d1e9481a8831231cc3eb1c3df5d4e3e3d9bffd90bb6807578
+SHA512: f4fbaf1c6cdd579b8e153619ed9367651ce61f788ebbda2b0c17c67e487998a07238c3d211276c67976ed2f5d9c329319e2d3bf5b353c29205f4b4b93628e9fd
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (metapackage)
+Description-md5: 878ce8cd10738a8943d4c42fb4b57bb0
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: lsp-plugins-clap
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 13926
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Provides: clap-plugin
+Depends: libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgl1, libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libx11-6, libxrandr2 (>= 2:1.5.0)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-clap_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 3905750
+MD5sum: f4feec333cfe2ab1dee55c33fcf6feba
+SHA1: 1a154ec8f4d8dcec3ab8caaef9b12d07490e1ac4
+SHA256: 8a36f92d090406f570c9a63ea687f969eda25458858078185181532b1ada2c00
+SHA512: e1f1a79c0b3837ce8f32db20de13ca50158bbff3897b7f7a7c134d84a5ec4e1baec4a95ec3df36d3e33aaa57e92cf3b236a8ebcc758e48d003e2bc61c696a5c8
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (clap plugins)
+Description-md5: cffc51d0c01792470896468ae7c010d5
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: lsp-plugins-jack
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 17715
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Depends: lsp-plugins-r3d-glx (= 1.2.33-1~bpo26.04.1), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgl1, libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libx11-6, libxrandr2 (>= 2:1.5.0)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-jack_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 3968258
+MD5sum: 425e6655dbf0fb2e76a045a37a4243ce
+SHA1: 37138c0ab14fcbd53ca4e8894f8648cce5f0602b
+SHA256: be94a98fb49c1a6e0ff181cda58a1845192b6e405b2835c7477ad953bc7d2952
+SHA512: 0c37379daba69a92c72974e62cf4f0f9970db2ff6dab724563230d3691dd14c6b464cb3a0dee873b5c2e3acfe3c6ffd3388f7ea4f7e06c60fe50cdf901683a2f
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (standalone JACK clients)
+Description-md5: dcca13fad9daac63db876da8ea8c29f7
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: lsp-plugins-ladspa
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 9223
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Provides: ladspa-plugin
+Depends: libc6 (>= 2.43), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-ladspa_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 1346658
+MD5sum: c40f9345ea4cac0aa8fdd9578862c094
+SHA1: 2442c69ac43ff2a0dd30e0161f03bfcc35314bf9
+SHA256: 03eda4d0c6298c304cc7c8e5a642ebdea20674977c468149cabdd10e7b231141
+SHA512: 18219f2dd89cf8e6124abbdd7d39a10620666f8e5beb99b5940bf13233e25f2e0c2377fc771b0643caad8d6b6aa827d0b2b149a2d7fb88420f76e52b17e83b9f
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (ladspa plugins)
+Description-md5: 8d7c8fff2f6f2f2412e292d8300b2bd3
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: lsp-plugins-lv2
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 40841
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Provides: lv2-plugin
+Depends: lsp-plugins-r3d-glx (= 1.2.33-1~bpo26.04.1), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgl1, libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libx11-6, libxrandr2 (>= 2:1.5.0)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-lv2_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 6529164
+MD5sum: b647fc9bd62f1f684eea21d9863ecd39
+SHA1: 1ecea525600287692b41943b8cac97917173cb94
+SHA256: e03ea5944447c75ed117078a449a8028e9cf021904452f0e85689a88b172fd34
+SHA512: 62ebcc096e1bb11523c52be996b9fbe0a9107e988ac9bca4014e7149ca8c07006b70fe3e705050e36451cf2f6b4e6940b2ebb884c1ba00c23d40c16b844143e8
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (LV2 plugins)
+Description-md5: ae448ed51900173db039cbecf96cae24
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Task: ubuntustudio-desktop
+
+Package: lsp-plugins-r3d-glx
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 128
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Replaces: lsp-plugins-jack (<< 1.1.30-1~)
+Depends: libc6 (>= 2.4), libgl1, libx11-6
+Breaks: lsp-plugins-jack (<< 1.1.30-1~)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-r3d-glx_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 26310
+MD5sum: 837dc336bcc986b2b2b5104625679965
+SHA1: 44c9392225e8296923ca21a1b7983f0d3620b3a2
+SHA256: ba78b20f27a3d1aea5c50cd0f0688efbaa1e50b6767bbe1131ace13909d1a83b
+SHA512: cda10bb53400308de85d18891b4c87b5c52930552d6e7ca44623af683b747df422361255aa6b5bd9be091af6d3ed37c2ba1685ad25fe64d3c7cc597a054d3a89
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) r3d-glx library
+Description-md5: 492a3a0345b9d8545f6c0476769838b9
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Task: ubuntustudio-desktop
+
+Package: lsp-plugins-vst
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 17601
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Provides: vst-plugin
+Depends: lsp-plugins-r3d-glx (= 1.2.33-1~bpo26.04.1), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgl1, libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libx11-6, libxrandr2 (>= 2:1.5.0)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-vst_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 3928980
+MD5sum: baad642992cd5873c3dd7851a871bc7b
+SHA1: 18863e2de78d821d34241094190d80cb7f5af0c2
+SHA256: 96a5c0a6d1905241c00e4398505b006e2f4bc4edda020cd2221091f4cfd063ac
+SHA512: 66d6ab65d28abab94ff8b7497f8acf9523ef586d17eec53972cea601ec18280cd029f246e2e6c2bfe6a00774145e243b48eb4a2b0fd0c9465c28eec5efc8ef5c
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (VST plugins)
+Description-md5: 62b3a565d01d30ccbd34c576fa0987ee
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: lsp-plugins-vst3
+Source: lsp-plugins
+Priority: optional
+Section: universe/sound
+Installed-Size: 14168
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.2.33-1~bpo26.04.1
+Provides: vst3-plugin
+Depends: lsp-plugins-r3d-glx (= 1.2.33-1~bpo26.04.1), libc6 (>= 2.43), libcairo2 (>= 1.6.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgl1, libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libx11-6, libxrandr2 (>= 2:1.5.0)
+Filename: pool/universe/l/lsp-plugins/lsp-plugins-vst3_1.2.33-1~bpo26.04.1_amd64v3.deb
+Size: 3946440
+MD5sum: 902af54238738642a3b72b4a31fdbcb2
+SHA1: fe2792066979fb1938896acc5ac486a46f11d8b3
+SHA256: fd1d9a2f742f95e2a82aead5325b5078342fbe8121848204b63c85d56915cba5
+SHA512: 5a9a9267e1d2a2bff7a2e1c951c6baaa7908b5f628a8473d481ddc7ae575d9eb2b9b0a03acfdb3da711a8af5afff15d16d8847b024c019553c2b60474d1a728d
+Homepage: https://lsp-plug.in/
+Description: LSP (Linux Studio Plugins) audio-plugins (VST3 plugins)
+Description-md5: d81080d83a116aa14fb8f14aad3834c6
+Architecture-Variant: amd64v3
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: nginx-snippets
+Priority: optional
+Section: universe/admin
+Installed-Size: 22
+Maintainer: Thomas Ward <teward@ubuntu.com>
+Architecture: all
+Version: 1.3~bpo26.04.1
+Depends: openssl, nginx-common (>= 1.24.0) | nginx (>= 1.24.0)
+Filename: pool/universe/n/nginx-snippets/nginx-snippets_1.3~bpo26.04.1_all.deb
+Size: 4012
+MD5sum: 07cfe5044eecf9da4bd88eb2618da996
+SHA1: cd40b6ca527bd53dccc2a0f0a3cc7020d7887ec8
+SHA256: 5e7fee942e51129e398a219f73c3b88a33475a9c394007d36cf410e58059a83d
+SHA512: 1077286867dd89981996400c71fd270f7e62e06fc7342ce3ea448215ecc3aebd3cbab915796fd1d776bda3b4f2c10af6e2ff07bf044fdf0f495150fde04a2d2b
+Homepage: https://salsa.debian.org/teward/nginx-snippets
+Description: Useful, commonly used nginx configuration snippets
+Description-md5: f5d59a720890f8d38f7b544e4ffb5144
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+Package: yt-dlp
+Priority: optional
+Section: universe/web
+Installed-Size: 10881
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 2026.08.19-1~bpo26.04.1
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
+Suggests: libfribidi-bin | bidiv, deno | nodejs | quickjs
+Depends: python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any
+Filename: pool/universe/y/yt-dlp/yt-dlp_2026.08.19-1~bpo26.04.1_all.deb
+Size: 1931168
+MD5sum: 2b225dd8a6c353578444c8c70f2a457e
+SHA1: 289f7a1faa0977aed891bb75b17e1654aee3f111
+SHA256: dae3d25bd0953b09f20ec61e8efca8260c32cd55050fc6b6f59ad043fdaa06bb
+SHA512: bc06917702599839212abeb784a06a6dc465321a2750ec0081aa6e2365ab6f99c4ef05aa3bc2fba48aaa8d53cb71bd8ce6bdb1454c384196edb35cdec48d11b1
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+Description-md5: a131f81e7211928cefd1b3f9a0a0ff62
+Original-Maintainer: Unit 193 <unit193@debian.org>
+Origin: Ubuntu
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Task: kubuntu-desktop, kubuntu-full, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+

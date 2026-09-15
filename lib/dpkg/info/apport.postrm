@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.31ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/apport_completion 2.30.0-0ubuntu2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/init.d/apport 2.30.0-0ubuntu2\~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'apport-autoreport.path' 'apport-autoreport.timer' 'apport-forward.socket' >/dev/null || true
+	fi
+fi
+# End automatically added section

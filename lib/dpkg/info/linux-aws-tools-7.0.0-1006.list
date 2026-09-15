@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/linux-aws-tools-7.0.0-1006
+/usr/lib/linux-aws-tools-7.0.0-1006/cpupower
+/usr/lib/linux-aws-tools-7.0.0-1006/intel-speed-select
+/usr/lib/linux-aws-tools-7.0.0-1006/turbostat
+/usr/lib/linux-aws-tools-7.0.0-1006/usbip
+/usr/lib/linux-aws-tools-7.0.0-1006/usbipd
+/usr/lib/linux-aws-tools-7.0.0-1006/x86_energy_perf_policy
+/usr/share
+/usr/share/doc
+/usr/share/doc/linux-aws-tools-7.0.0-1006
+/usr/share/doc/linux-aws-tools-7.0.0-1006/changelog.Debian.gz
+/usr/share/doc/linux-aws-tools-7.0.0-1006/copyright

@@ -1,0 +1,7 @@
+9f5776fd0177d62763bda58b5cf71b6b  usr/lib/dracut/modules.d/50copymods/module-setup.sh
+f41db87cb69e85b8547d667f6004805e  usr/lib/dracut/modules.d/50copymods/parse-copymods.sh
+d678ccc14bc7c044990577936a05e964  usr/share/doc/cloud-initramfs-copymods/changelog.gz
+8d6c823f937af3aee446ef5829ce761d  usr/share/doc/cloud-initramfs-copymods/copyright
+ef114f2b649514d4f31c01f49e435f73  usr/share/initramfs-tools/hooks/copymods
+edb7f7c72533225bcc9ab73a19327702  usr/share/initramfs-tools/scripts/init-bottom/copymods
+7b7923ad65dbfb265312f52f32579186  usr/share/lintian/overrides/cloud-initramfs-copymods

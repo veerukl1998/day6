@@ -1,0 +1,4 @@
+8ebb7c294818a051bde590e79c91e7ab  usr/lib/udev/rules.d/55-scsi-sg3_id.rules
+51478b5817cc1eb7e601f3dd2e1c2b77  usr/lib/udev/rules.d/58-scsi-sg3_symlink.rules
+6c1cdb0f470c581bda9a1c5d988d2578  usr/share/doc/sg3-utils-udev/copyright
+dc9d559e769d43ac669096f56b10fc51  usr/share/initramfs-tools/hooks/sg3-utils

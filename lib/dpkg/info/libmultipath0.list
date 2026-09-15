@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libmpathutil.so.0
+/usr/lib/libmultipath.so.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmultipath0
+/usr/share/doc/libmultipath0/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libmultipath0
+/usr/share/doc/libmultipath0/NEWS.Debian.gz
+/usr/share/doc/libmultipath0/changelog.Debian.gz

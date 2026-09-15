@@ -1,0 +1,2 @@
+libhandle 1 xfsprogs (>= 6.18.0)
+udeb: libhandle 1 xfsprogs-udeb (>= 6.18.0)

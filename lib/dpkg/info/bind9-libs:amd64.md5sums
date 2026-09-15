@@ -1,0 +1,8 @@
+123a6792e5009609e25e35d9ca46c77d  usr/lib/x86_64-linux-gnu/libdns-9.20.18-1ubuntu2.1-Ubuntu.so
+87cdbaaf996af3a19a7d8406b264f62c  usr/lib/x86_64-linux-gnu/libisc-9.20.18-1ubuntu2.1-Ubuntu.so
+aab3bf1b50009f52656246eb30a696f1  usr/lib/x86_64-linux-gnu/libisccc-9.20.18-1ubuntu2.1-Ubuntu.so
+6714a58cdc75a2a80f8909fe56c17619  usr/lib/x86_64-linux-gnu/libisccfg-9.20.18-1ubuntu2.1-Ubuntu.so
+0f73f80a731d2b5d0c360a05fc8b3013  usr/lib/x86_64-linux-gnu/libns-9.20.18-1ubuntu2.1-Ubuntu.so
+3e5efe598ae6de00ffd92bbd0ab54f89  usr/share/doc/bind9-libs/changelog.Debian.gz
+80a2b6623ad68d14dc7cf4ee8a28ae2c  usr/share/doc/bind9-libs/copyright
+5a8db1f2385c80b7537a5614f81d6e26  usr/share/lintian/overrides/bind9-libs

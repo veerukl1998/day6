@@ -1,0 +1,11 @@
+83a192c75521d08a967bd433a9d00bf8  usr/lib/dracut/modules.d/50overlayroot/module-setup.sh
+602df098072a13c310de2930ec33bda1  usr/lib/dracut/modules.d/50overlayroot/overlayroot-compat-symlink.sh
+f2a2acdd2bdeeb9e41ecf2361ff098b8  usr/lib/dracut/modules.d/50overlayroot/parse-overlayroot.sh
+78db8ba50efd0e523fe4b06083b67dcd  usr/sbin/overlayroot-chroot
+3c1fc6b736c4295b905fafd32962ae63  usr/share/doc/overlayroot/changelog.gz
+8d6c823f937af3aee446ef5829ce761d  usr/share/doc/overlayroot/copyright
+94661160a717bcc5639fef40546a7e14  usr/share/initramfs-tools/conf-hooks.d/overlayroot
+349725f825813b1ca87b785ce13c09ee  usr/share/initramfs-tools/hooks/overlayroot
+c49394fd5b76be8057a5daadd0e8fc37  usr/share/initramfs-tools/scripts/init-bottom/overlayroot
+2102d34cc27bde490642664027cab6b6  usr/share/lintian/overrides/overlayroot
+e80e667ae504860007cd71006f05e999  usr/share/man/man8/overlayroot-chroot.8.gz

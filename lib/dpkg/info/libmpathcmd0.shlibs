@@ -1,0 +1,2 @@
+libmpathcmd 0 libmpathcmd0 (>= 0.14.3)
+udeb: libmpathcmd 0 multipath-udeb (>= 0.14.3)

@@ -1,0 +1,4 @@
+2026-09-15 04:13:14.9300 ERROR [RemoteRetrieve @ ec2_role_provider.go.153] EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 974767851146
+	status code: 400, request id: 12193601-e74e-438f-90c9-21069f1bb468
+2026-09-15 04:13:14.9300 ERROR [minLog @ credentialrefresher.go.301] [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 974767851146
+	status code: 400, request id: 12193601-e74e-438f-90c9-21069f1bb468

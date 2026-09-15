@@ -1,0 +1,2 @@
+libmpathpersist 0 libmpathpersist0 (>= 0.14.3)
+udeb: libmpathpersist 0 multipath-udeb (>= 0.14.3)

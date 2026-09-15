@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.28ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/profile.d/sysstat.sh 11.7.3\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/cron.daily/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/init.d/sysstat 12.7.7-0ubuntu2\~ sysstat -- "$@"
+# End automatically added section

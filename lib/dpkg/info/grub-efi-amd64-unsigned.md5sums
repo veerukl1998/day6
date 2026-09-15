@@ -1,0 +1,9 @@
+e4b061ea55cb72acc01959e8b1c2479a  usr/lib/grub/x86_64-efi/monolithic/gcdx64.efi
+60ac4a4d9fabbd4bc5fb561e177209c8  usr/lib/grub/x86_64-efi/monolithic/grubnetx64.efi
+7dad7084fc49846d37cfb1de3e6206b3  usr/lib/grub/x86_64-efi/monolithic/grubx64.efi
+8078b6f24767ff216eb390a997926d48  usr/share/bug/grub-efi-amd64-unsigned/presubj
+0d5ead2e5fdc1dad9283d5a770980056  usr/share/bug/grub-efi-amd64-unsigned/script
+2ac0369cdb4e44b5f925235bd9ed414f  usr/share/doc/grub-efi-amd64-unsigned/NEWS.Debian.gz
+1c8ab23040f1a1d8df57258ceec7dda5  usr/share/doc/grub-efi-amd64-unsigned/changelog.Debian.gz
+2f3b21a20aaa88ff364abd0991aab82f  usr/share/doc/grub-efi-amd64-unsigned/copyright
+34968860dc005cee2747088048f61eb6  usr/share/lintian/overrides/grub-efi-amd64-unsigned

@@ -1,0 +1,6 @@
+6f00f905492f124544d1e2bf0f8b45c1  usr/bin/unmkinitramfs
+a5879fd5ddde4f8f50b9981cf506c1a7  usr/lib/initramfs-tools/bin/gcc_s1-stub
+bfe7a656b15d478851aaa750d57987e5  usr/lib/initramfs-tools/bin/wait-for-root
+b70b981ab44e232413c679ff44b49edd  usr/share/doc/initramfs-tools-bin/changelog.gz
+e55a2a32242cc00998ca3901aea7d09d  usr/share/doc/initramfs-tools-bin/copyright
+06dbdddbae3c2a1d2dec0e122db1d1d1  usr/share/man/man8/unmkinitramfs.8.gz

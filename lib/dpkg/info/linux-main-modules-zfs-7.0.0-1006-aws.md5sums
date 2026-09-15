@@ -1,0 +1,4 @@
+7788fb4c19d53502b00d70185b3d44b0  usr/lib/modules/7.0.0-1006-aws/kernel/zfs/spl.ko.zst
+2abde7fa3bef54ec8511cc84975ed5a3  usr/lib/modules/7.0.0-1006-aws/kernel/zfs/zfs.ko.zst
+bd1c203a52d94ac283ddc5652c8d654b  usr/share/doc/linux-main-modules-zfs-7.0.0-1006-aws/changelog.Debian.gz
+511827a7e857ceb638700f25221d8fdb  usr/share/doc/linux-main-modules-zfs-7.0.0-1006-aws/copyright

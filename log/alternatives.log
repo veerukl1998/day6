@@ -1,0 +1,5 @@
+update-alternatives 2026-06-04 05:42:21: run with --install /usr/lib/shim/shimx64.efi.signed shimx64.efi.signed /usr/lib/shim/shimx64.nx.efi.signed.latest 25
+update-alternatives 2026-06-04 05:42:21: link group shimx64.efi.signed updated to point to /usr/lib/shim/shimx64.nx.efi.signed.latest
+update-alternatives 2026-06-04 05:42:21: run with --install /usr/lib/shim/shimx64.efi.signed shimx64.efi.signed /usr/lib/shim/shimx64.efi.signed.latest 100
+update-alternatives 2026-06-04 05:42:21: link group shimx64.efi.signed updated to point to /usr/lib/shim/shimx64.efi.signed.latest
+update-alternatives 2026-06-04 05:42:21: run with --install /usr/lib/shim/shimx64.efi.signed shimx64.efi.signed /usr/lib/shim/shimx64.efi.signed.previous 50

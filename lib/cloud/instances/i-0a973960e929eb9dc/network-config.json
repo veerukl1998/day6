@@ -1,0 +1,13 @@
+{
+ "ethernets": {
+  "ens5": {
+   "dhcp4": true,
+   "dhcp6": false,
+   "match": {
+    "macaddress": "0a:ff:da:7a:f5:a7"
+   },
+   "set-name": "ens5"
+  }
+ },
+ "version": 2
+}

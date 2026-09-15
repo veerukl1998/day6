@@ -1,0 +1,5 @@
+9847e1435c2dae6f098abee488579ff9  usr/share/doc/libdebuginfod-common/changelog.Debian.gz
+e3e5220eedb84bbea926b13d9f371cbb  usr/share/doc/libdebuginfod-common/copyright
+24354bd42f4c182b28d56b8d5648a7fc  usr/share/libdebuginfod-common/debuginfod.csh
+de00b7d680d5769b74e055ced932ec0a  usr/share/libdebuginfod-common/debuginfod.sh
+da7a1267be46fd060cb4a9dcd66c994d  usr/share/man/man7/debuginfod-client-config.7.gz

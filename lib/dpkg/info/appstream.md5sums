@@ -1,0 +1,9 @@
+5e2db997a4a0de7a1c1a262a5a4eeba7  usr/bin/appstreamcli
+aa67ce093d24e9bc9bcee37b971b5630  usr/share/appstream/appstream.conf
+d5c28a97d7c826cfd77a518133e0e78d  usr/share/bash-completion/completions/appstreamcli
+f49a86d1260c6833e83782752dbcba6d  usr/share/doc/appstream/copyright
+6aa33716d1c0d80f5c8d601aa4547338  usr/share/gettext/its/metainfo.its
+f645b5c3a0d70be39a1b291591be15f1  usr/share/gettext/its/metainfo.loc
+cdbf963841550a8a1baf6c7feb2e59b8  usr/share/installed-tests/appstream/metainfo-validate.test
+49149d4e1efe7aaf6d22a9efd0fe1e96  usr/share/man/man1/appstreamcli.1.gz
+852f2a4c57599bdef8afa647913f973a  usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml

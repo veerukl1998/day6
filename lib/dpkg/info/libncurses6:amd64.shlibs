@@ -1,0 +1,4 @@
+libform 6 libncurses6 (>= 6.6)
+libmenu 6 libncurses6 (>= 6.6)
+libncurses 6 libncurses6 (>= 6.6)
+libpanel 6 libncurses6 (>= 6.6)

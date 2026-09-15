@@ -1,0 +1,17 @@
+3891cb0b74396c7d3a483bec7bbaa103  usr/lib/python3/dist-packages/lazr/uri/__init__.py
+1eaaa8501f71e8bb05ad317c07599151  usr/lib/python3/dist-packages/lazr/uri/_uri.py
+130b82a98aeeb44034f54e1a63abe0b9  usr/lib/python3/dist-packages/lazr/uri/configure.zcml
+85124068c0c392b9ad59573aa114fb60  usr/lib/python3/dist-packages/lazr/uri/docs/Makefile
+1d7ec46f113e2590718517065d51bcfb  usr/lib/python3/dist-packages/lazr/uri/docs/NEWS.rst
+b5b340c0b1a4426cad60c930b5aa746d  usr/lib/python3/dist-packages/lazr/uri/docs/index.rst
+17befe5da2367d69d9be36f06acaf093  usr/lib/python3/dist-packages/lazr/uri/tests/__init__.py
+5e290a1080c4f024a42f643db14aa0c8  usr/lib/python3/dist-packages/lazr/uri/tests/test_docs.py
+4abd195d73790de76cf4d53e347d3b3a  usr/lib/python3/dist-packages/lazr/uri/tests/test_uri.py
+c72246579c4437c07cebb86fbcbc6d90  usr/lib/python3/dist-packages/lazr_uri-1.0.6.dist-info/INSTALLER
+fb04606fca5396b13fb52d43995c4a01  usr/lib/python3/dist-packages/lazr_uri-1.0.6.dist-info/METADATA
+ef2c8f2df39dac373c521c2b1220ef39  usr/lib/python3/dist-packages/lazr_uri-1.0.6.dist-info/WHEEL
+dc122d9592309b3ed952d06401dd04da  usr/lib/python3/dist-packages/lazr_uri-1.0.6.dist-info/namespace_packages.txt
+dc122d9592309b3ed952d06401dd04da  usr/lib/python3/dist-packages/lazr_uri-1.0.6.dist-info/top_level.txt
+ceaacad16ec7df24660f20933defd3a4  usr/share/doc/python3-lazr.uri/changelog.Debian.gz
+682ad6fc3a43df656b05e7233ae1e294  usr/share/doc/python3-lazr.uri/copyright
+b5b340c0b1a4426cad60c930b5aa746d  usr/share/doc/python3-lazr.uri/index.rst

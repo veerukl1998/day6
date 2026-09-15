@@ -1,0 +1,6 @@
+b3f995f312cadb64352dcb301b9d1b97  usr/lib/x86_64-linux-gnu/perl5/5.40/auto/Locale/gettext_xs/gettext_xs.so
+e5a662f4813bb592b8beba247977c370  usr/share/doc/libintl-xs-perl/changelog.Debian.gz
+9efd3d6f448f1b8e036d05b8461002ae  usr/share/doc/libintl-xs-perl/copyright
+cf5736600fbbb9eeea14fd7c8d16d58d  usr/share/lintian/overrides/libintl-xs-perl
+bcb0ea87037eede4600ec5401bd47dec  usr/share/man/man3/Locale::gettext_xs.3pm.gz
+9e711c5358d73b8d8953d870e1ef1c27  usr/share/perl5/Locale/gettext_xs.pm

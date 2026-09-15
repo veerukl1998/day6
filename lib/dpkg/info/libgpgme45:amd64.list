@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libgpgme.so.45.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgpgme45
+/usr/share/doc/libgpgme45/changelog.Debian.gz
+/usr/share/doc/libgpgme45/copyright
+/usr/lib/x86_64-linux-gnu/libgpgme.so.45

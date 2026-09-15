@@ -1,0 +1,13 @@
+/etc/cloud/cloud.cfg
+/etc/cloud/cloud.cfg.d/05_logging.cfg
+/etc/cloud/cloud.cfg.d/README
+/etc/cloud/templates/chef_client.rb.tmpl
+/etc/cloud/templates/chrony.conf.ubuntu.tmpl
+/etc/cloud/templates/hosts.debian.tmpl
+/etc/cloud/templates/ntp.conf.ubuntu.tmpl
+/etc/cloud/templates/sources.list.ubuntu.deb822.tmpl
+/etc/cloud/templates/timesyncd.conf.tmpl
+/etc/logrotate.d/cloud-init-base
+/etc/profile.d/Z99-cloud-locale-test.sh
+/etc/profile.d/Z99-cloudinit-warnings.sh
+/etc/rsyslog.d/21-cloudinit.conf

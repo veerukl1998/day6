@@ -1,0 +1,59 @@
+#!/bin/sh
+
+set -e
+
+# Automatically added by dh_systemd_enable/13.24.2ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# The following line should be removed in trixie or trixie+1
+	deb-systemd-helper unmask 'ec2-instance-connect-harvest-hostkeys.service' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'ec2-instance-connect-harvest-hostkeys.service'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'ec2-instance-connect-harvest-hostkeys.service' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'ec2-instance-connect-harvest-hostkeys.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_systemd_start/13.24.2ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -d /run/systemd/system ]; then
+		systemctl --system daemon-reload >/dev/null || true
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		deb-systemd-invoke $_dh_action 'ec2-instance-connect-harvest-hostkeys.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+case "$1" in
+    configure)
+        modified=1
+        # If there is nothing in the AuthorizedKeysCommand field of sshd_config
+        if ! grep -q '^[^#]*AuthorizedKeysCommand[[:blank:]]\+.*$' /etc/ssh/sshd_config ; then
+            if ! grep -q '^[^#]*AuthorizedKeysCommandUser[[:blank:]]\+.*$' /etc/ssh/sshd_config ; then
+                if ! grep -q '^[^#]*AuthorizedKeysCommandRunAs[[:blank:]]\+.*$' /etc/ssh/sshd_config ; then
+                    modified=0
+                fi
+            fi
+        fi
+
+        if [ $modified -eq 0 ] ; then
+            echo "sshd override added, restarting daemon" >&2
+            deb-systemd-invoke restart ssh.service
+        else
+            echo "ERROR: Not restarting ssh because /etc/ssh/sshd_config already sets" >&2
+            echo "ERROR: AuthorizedKeysCommand*, which is also set by" >&2
+            echo "ERROR: /lib/systemd/system/ssh.service.d/ec2-instance-connect.conf." >&2
+            echo "Please restart ssh manually if the configuration is correct." >&2
+        fi
+    ;;
+esac

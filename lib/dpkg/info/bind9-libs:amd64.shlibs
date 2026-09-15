@@ -1,0 +1,5 @@
+libdns-9.20.18 1ubuntu2.1-Ubuntu bind9-libs (>= 1:9.20.18)
+libisc-9.20.18 1ubuntu2.1-Ubuntu bind9-libs (>= 1:9.20.18)
+libisccc-9.20.18 1ubuntu2.1-Ubuntu bind9-libs (>= 1:9.20.18)
+libisccfg-9.20.18 1ubuntu2.1-Ubuntu bind9-libs (>= 1:9.20.18)
+libns-9.20.18 1ubuntu2.1-Ubuntu bind9-libs (>= 1:9.20.18)

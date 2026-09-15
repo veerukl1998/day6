@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+case "$1" in
+remove | purge)
+    rm -vf /boot/microcode.cpio
+    if [ -e /boot/grub/grub.cfg ] && which update-grub >/dev/null 2>&1; then
+        update-grub || true
+    fi
+    exit 0
+    ;;
+esac
+
+

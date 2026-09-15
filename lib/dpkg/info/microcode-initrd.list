@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/bin
+/usr/bin/update-microcode-initrd
+/usr/share
+/usr/share/doc
+/usr/share/doc/microcode-initrd
+/usr/share/doc/microcode-initrd/changelog.gz
+/usr/share/doc/microcode-initrd/copyright

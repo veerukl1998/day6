@@ -1,0 +1,9 @@
+/.
+/boot
+/boot/vmlinuz-7.0.0-1006-aws
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/linux-image-7.0.0-1006-aws
+/usr/share/doc/linux-image-7.0.0-1006-aws/changelog.Debian.gz
+/usr/share/doc/linux-image-7.0.0-1006-aws/copyright

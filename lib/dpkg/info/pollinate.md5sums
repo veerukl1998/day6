@@ -1,0 +1,6 @@
+fa0d134ea2a1d24f314cc9b1e5aa25d1  usr/bin/pollinate
+ded02fd018613834797b967e8f98f58d  usr/lib/nagios/plugins/check_pollen
+0d0f5edd6336476639330f077b378181  usr/lib/systemd/system/pollinate.service
+5ebc5a442adab1bec017ed3938349e47  usr/share/doc/pollinate/changelog.Debian.gz
+ff66f1e56d20986e1df01675ab89c528  usr/share/doc/pollinate/copyright
+62fe40888a715acae175066e233a180e  usr/share/man/man1/pollinate.1.gz

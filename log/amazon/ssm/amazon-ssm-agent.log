@@ -1,0 +1,31 @@
+2026-09-15 04:13:14.7361 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-09-15 04:13:14.7362 INFO Proxy environment variables:
+2026-09-15 04:13:14.7449 INFO no_proxy: 
+2026-09-15 04:13:14.7449 INFO https_proxy: 
+2026-09-15 04:13:14.7449 INFO http_proxy: 
+2026-09-15 04:13:14.7449 INFO Checking if agent identity type OnPrem can be assumed
+2026-09-15 04:13:14.7471 INFO Checking if agent identity type EC2 can be assumed
+2026-09-15 04:13:14.7773 INFO Agent will take identity from EC2
+2026-09-15 04:13:14.7788 INFO Telemetry initialized
+2026-09-15 04:13:14.7793 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.3.4121.0
+2026-09-15 04:13:14.7794 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2026-09-15 04:13:14.7794 INFO [amazon-ssm-agent] Starting Core Agent
+2026-09-15 04:13:14.7794 INFO [amazon-ssm-agent] Registrar detected. Attempting registration
+2026-09-15 04:13:14.7794 INFO [Registrar] Starting registrar module
+2026-09-15 04:13:14.7806 INFO [EC2Identity] Checking disk for registration info
+2026-09-15 04:13:14.7806 INFO [EC2Identity] No registration info found for ec2 instance, attempting registration
+2026-09-15 04:13:14.7806 INFO [EC2Identity] Generating registration keypair
+2026-09-15 04:13:14.8695 INFO [EC2Identity] Checking write access before registering
+2026-09-15 04:13:14.8699 INFO [EC2Identity] Registering EC2 instance with Systems Manager
+2026-09-15 04:13:14.9040 INFO [EC2Identity] EC2 registration was successful.
+2026-09-15 04:13:14.9041 INFO [amazon-ssm-agent] Registration attempted. Resuming core agent startup.
+2026-09-15 04:13:14.9042 INFO [CredentialRefresher] credentialRefresher has started
+2026-09-15 04:13:14.9042 INFO [CredentialRefresher] Starting credentials refresher loop
+2026-09-15 04:13:14.9058 WARN EC2RoleProvider Failed to connect to Systems Manager with instance profile role credentials. Err: retrieved credentials failed to report to ssm. Error: EC2RoleRequestError: no EC2 instance role found
+2026-09-15 04:13:14.9300 ERROR EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 974767851146
+	status code: 400, request id: 12193601-e74e-438f-90c9-21069f1bb468
+2026-09-15 04:13:14.9300 ERROR [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 974767851146
+	status code: 400, request id: 12193601-e74e-438f-90c9-21069f1bb468
+2026-09-15 04:13:14.9301 INFO [CredentialRefresher] Sleeping for 26m13s before retrying retrieve credentials
+2026-09-15 04:13:14.9303 INFO [SerialPort] Write to serial port: SSM Agent unable to acquire credentials: <error>no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 974767851146
+	status code: 400, request id: 12193601-e74e-438f-90c9-21069f1bb468</error>

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/llvm-21
+/usr/lib/llvm-21/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libclang-cpp.so.21.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libclang-cpp21
+/usr/share/doc/libclang-cpp21/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libclang-cpp21
+/usr/lib/llvm-21/lib/libclang-cpp.so.21.1
+/usr/share/doc/libclang-cpp21/NEWS.Debian.gz
+/usr/share/doc/libclang-cpp21/changelog.Debian.gz

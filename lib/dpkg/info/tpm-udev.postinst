@@ -1,0 +1,67 @@
+#!/bin/sh
+
+set -e
+
+# Automatically added by dh_installsysusers/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+   systemd-sysusers ${DPKG_ROOT:+--root="$DPKG_ROOT"} tpm2-tss.conf
+fi
+# End automatically added section
+# Automatically added by dh_installtmpfiles/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -x "$(command -v systemd-tmpfiles)" ]; then
+		systemd-tmpfiles ${DPKG_ROOT:+--root="$DPKG_ROOT"} --create tpm-udev.conf tpm2-tss-fapi.conf || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# The following line should be removed in trixie or trixie+1
+	deb-systemd-helper unmask 'tpm-udev.path' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'tpm-udev.path'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'tpm-udev.path' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'tpm-udev.path' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -d /run/systemd/system ]; then
+		systemctl --system daemon-reload >/dev/null || true
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		deb-systemd-invoke $_dh_action 'tpm-udev.path' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+case "$1" in
+    configure)
+	# ask udev to check for new udev rules (and fix device permissions)
+	if udevadm --version > /dev/null; then
+	    udevadm control --reload-rules ||:
+	    udevadm trigger --sysname-match="tpm[0-9]*" ||:
+	    udevadm trigger --action=add --subsystem-match=tpm ||:
+	    udevadm trigger --action=add --subsystem-match=tpmrm ||:
+	fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac

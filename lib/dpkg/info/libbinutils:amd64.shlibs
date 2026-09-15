@@ -1,0 +1,2 @@
+libbfd 2.46-system libbinutils (>= 2.46), libbinutils (<< 2.46.1)
+libopcodes 2.46-system libbinutils (>= 2.46), libbinutils (<< 2.46.1)

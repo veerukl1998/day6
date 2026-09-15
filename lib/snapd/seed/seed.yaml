@@ -1,0 +1,14 @@
+snaps:
+  -
+    name: core22
+    channel: stable
+    file: core22_2411.snap
+  -
+    name: snapd
+    channel: stable
+    file: snapd_26865.snap
+  -
+    name: amazon-ssm-agent
+    channel: stable/ubuntu-26.04
+    classic: true
+    file: amazon-ssm-agent_13009.snap

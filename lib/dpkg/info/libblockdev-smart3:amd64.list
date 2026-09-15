@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libbd_smart.so.3.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libblockdev-smart3
+/usr/share/doc/libblockdev-smart3/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libblockdev-smart3
+/usr/lib/x86_64-linux-gnu/libbd_smart.so.3
+/usr/share/doc/libblockdev-smart3/changelog.Debian.gz

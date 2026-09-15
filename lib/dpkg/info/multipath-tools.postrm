@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.31ubuntu1
+dpkg-maintscript-helper rm_conffile /etc/init.d/multipath-tools 0.9.4-7\~ multipath-tools -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	systemctl --system daemon-reload >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.31ubuntu1
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge 'multipathd.service' >/dev/null || true
+	fi
+fi
+# End automatically added section

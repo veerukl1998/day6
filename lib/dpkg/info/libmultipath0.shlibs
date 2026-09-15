@@ -1,0 +1,4 @@
+libmpathutil 0 libmultipath0 (>= 0.14.3)
+libmultipath 0 libmultipath0 (>= 0.14.3)
+udeb: libmpathutil 0 multipath-udeb (>= 0.14.3)
+udeb: libmultipath 0 multipath-udeb (>= 0.14.3)

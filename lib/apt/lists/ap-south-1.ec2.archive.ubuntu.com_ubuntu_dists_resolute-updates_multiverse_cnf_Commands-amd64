@@ -1,0 +1,21 @@
+suite: resolute-updates
+component: multiverse
+arch: amd64
+
+
+name: nvidia-fabricmanager-580
+version: 580.159.03-0ubuntu0.26.04.1
+commands: nv-fabricmanager,nvidia-fabricmanager-start.sh,nvswitch-audit
+
+name: nvidia-fabricmanager-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nv-fabricmanager,nvidia-fabricmanager-start.sh,nvswitch-audit
+
+name: nvidia-imex-580
+version: 580.159.03-0ubuntu0.26.04.2
+commands: nvidia-imex,nvidia-imex-ctl
+
+name: nvidia-imex-595
+version: 595.71.05-0ubuntu0.26.04.1
+commands: nvidia-imex,nvidia-imex-ctl
+

@@ -1,0 +1,4 @@
+a0fd4fcbcb812cb966602b2764ea1317  usr/bin/gpg-wks-client
+6fc726f68b8eea6a1681d31f18bd07b2  usr/lib/gnupg/gpg-wks-client
+34026339a310743ebec4d2ad6fb5127b  usr/share/doc/gpg-wks-client/copyright
+0aad7cf693b459778dea7d8fadac7bb3  usr/share/man/man1/gpg-wks-client.1.gz

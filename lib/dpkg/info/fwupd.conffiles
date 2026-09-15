@@ -1,0 +1,11 @@
+/etc/fwupd/bios-settings.d/README.md
+/etc/fwupd/fwupd.conf
+/etc/fwupd/remotes.d/lvfs-testing.conf
+/etc/fwupd/remotes.d/lvfs.conf
+/etc/fwupd/remotes.d/vendor-directory.conf
+/etc/grub.d/35_fwupd
+/etc/pki/fwupd-metadata/LVFS-CA-2025PQ.pem
+/etc/pki/fwupd-metadata/LVFS-CA.pem
+/etc/pki/fwupd/LVFS-CA-2025PQ.pem
+/etc/pki/fwupd/LVFS-CA.pem
+/etc/update-motd.d/85-fwupd

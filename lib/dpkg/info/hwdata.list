@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/hwdata
+/usr/share/doc/hwdata/copyright
+/usr/share/hwdata
+/usr/share/pkgconfig
+/usr/share/pkgconfig/hwdata.pc
+/usr/share/doc/hwdata/changelog.Debian.gz
+/usr/share/hwdata/pci.ids
+/usr/share/hwdata/usb.ids
